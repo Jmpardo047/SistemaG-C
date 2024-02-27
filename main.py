@@ -1,3 +1,4 @@
+import modules.menus as m
 if __name__=='__main__':
-    print('Hola mundo')
-    pass
+    m.MainMenu()
+    
