@@ -123,6 +123,10 @@ def Addpersona(personas : dict):
             print(f'La persona {name} ha sido agregada correctamente')
             os.system('pause')
             return
+        else:
+            print('opcion ingresada no valida')
+            os.system('pause')
+            Addpersona(personas)
     else:
         print('El tipo de persona seleccionado no es valido')
         os.system('pause')
