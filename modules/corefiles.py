@@ -56,3 +56,7 @@ def CreateFile(*param):
 def ReadFile(file):
     with open(BASE_DIRECTORY+file,'r') as rf:
         return json.load(rf)
+
+def UpdateData(archivo,data):
+    with open(BASE_DIRECTORY+ archivo,'w') as fw:
+        json.dump(data,fw,indent=4)
