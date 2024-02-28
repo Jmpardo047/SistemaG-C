@@ -4,7 +4,10 @@ import sys
 BASE_DIRECTORY = 'data/'
 dictStruct = {
     'activos':{},
-    'personas':{},
+    'personas':{
+         'personasn':{},
+         'personasj':{}
+    },
     'zonas': {},
     'asignaciones':{}
 }
@@ -40,6 +43,7 @@ def DelLine():
 def VerifyEx():
     if (CheckFile('campus.json') == False):
         CreateFile('campus.json',dictStruct)
+        return ReadFile('campus.json')
     else:
         return ReadFile('campus.json')
 
