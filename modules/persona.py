@@ -60,7 +60,7 @@ def Addpersona(personas : dict):
                         personas['personasn'].update({cc:persona})
                     else:
                         isactive = False
-                        print('Opcion escrita no es correcta, no se agregó ninugn registro al sistema de personas')
+                        print('Opcion escrita no es correcta, no se agregó ningun registro al sistema de personas')
                         os.system('pause')
                         return
                 else:
