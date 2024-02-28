@@ -12,7 +12,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39173",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR001": {
             "codtransaccion": "327",
@@ -26,7 +27,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070723",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO001": {
             "codtransaccion": "327",
@@ -40,7 +42,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091706",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS001": {
             "codtransaccion": "327",
@@ -54,7 +57,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU002": {
             "codtransaccion": "327",
@@ -68,7 +72,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39208",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR002": {
             "codtransaccion": "327",
@@ -82,7 +87,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070880",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO002": {
             "codtransaccion": "327",
@@ -96,7 +102,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090718",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS002": {
             "codtransaccion": "327",
@@ -110,7 +117,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU003": {
             "codtransaccion": "327",
@@ -124,7 +132,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39182",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR003": {
             "codtransaccion": "327",
@@ -138,7 +147,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070018",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO003": {
             "codtransaccion": "327",
@@ -152,7 +162,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090717",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS003": {
             "codtransaccion": "327",
@@ -166,7 +177,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU004": {
             "codtransaccion": "327",
@@ -180,7 +192,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39190",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR004": {
             "codtransaccion": "327",
@@ -194,7 +207,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070876",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO004": {
             "codtransaccion": "327",
@@ -208,7 +222,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090719",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS004": {
             "codtransaccion": "327",
@@ -222,7 +237,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU005": {
             "codtransaccion": "327",
@@ -236,7 +252,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39186",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR005": {
             "codtransaccion": "327",
@@ -250,7 +267,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070838",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO005": {
             "codtransaccion": "327",
@@ -264,7 +282,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091718",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS005": {
             "codtransaccion": "327",
@@ -278,7 +297,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU006": {
             "codtransaccion": "327",
@@ -292,7 +312,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39198",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR006": {
             "codtransaccion": "327",
@@ -306,7 +327,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070638",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO006": {
             "codtransaccion": "327",
@@ -320,7 +342,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091719",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS006": {
             "codtransaccion": "327",
@@ -334,7 +357,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU007": {
             "codtransaccion": "327",
@@ -348,7 +372,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55107",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR007": {
             "codtransaccion": "327",
@@ -362,7 +387,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070037",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO007": {
             "codtransaccion": "327",
@@ -376,7 +402,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091731",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS007": {
             "codtransaccion": "327",
@@ -390,7 +417,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU008": {
             "codtransaccion": "327",
@@ -404,7 +432,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55106",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR008": {
             "codtransaccion": "327",
@@ -418,7 +447,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070115",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO008": {
             "codtransaccion": "327",
@@ -432,7 +462,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091732",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS008": {
             "codtransaccion": "327",
@@ -446,7 +477,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU009": {
             "codtransaccion": "327",
@@ -460,7 +492,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39204",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR009": {
             "codtransaccion": "327",
@@ -474,7 +507,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070874",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO009": {
             "codtransaccion": "327",
@@ -488,7 +522,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090731",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS009": {
             "codtransaccion": "327",
@@ -502,7 +537,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU010": {
             "codtransaccion": "327",
@@ -516,7 +552,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39214",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR010": {
             "codtransaccion": "327",
@@ -530,7 +567,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070105",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO010": {
             "codtransaccion": "327",
@@ -544,7 +582,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090732",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS010": {
             "codtransaccion": "327",
@@ -558,7 +597,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU011": {
             "codtransaccion": "327",
@@ -572,7 +612,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39189",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR011": {
             "codtransaccion": "327",
@@ -586,7 +627,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070010",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO011": {
             "codtransaccion": "327",
@@ -600,7 +642,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091733",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS011": {
             "codtransaccion": "327",
@@ -614,7 +657,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU012": {
             "codtransaccion": "327",
@@ -628,7 +672,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39223",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR012": {
             "codtransaccion": "327",
@@ -642,7 +687,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070109",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO012": {
             "codtransaccion": "327",
@@ -656,7 +702,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090703",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS012": {
             "codtransaccion": "327",
@@ -670,7 +717,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU013": {
             "codtransaccion": "327",
@@ -684,7 +732,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39229",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR013": {
             "codtransaccion": "327",
@@ -698,7 +747,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070502",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO013": {
             "codtransaccion": "327",
@@ -712,7 +762,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090708",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS013": {
             "codtransaccion": "327",
@@ -726,7 +777,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU014": {
             "codtransaccion": "327",
@@ -740,7 +792,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39178",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR014": {
             "codtransaccion": "327",
@@ -754,7 +807,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070136",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO014": {
             "codtransaccion": "327",
@@ -768,7 +822,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091708",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS014": {
             "codtransaccion": "327",
@@ -782,7 +837,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU015": {
             "codtransaccion": "327",
@@ -796,7 +852,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39196",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR015": {
             "codtransaccion": "327",
@@ -810,7 +867,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070001",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO015": {
             "codtransaccion": "327",
@@ -824,7 +882,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091707",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS015": {
             "codtransaccion": "327",
@@ -838,7 +897,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU016": {
             "codtransaccion": "327",
@@ -852,7 +912,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55081",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR016": {
             "codtransaccion": "327",
@@ -866,7 +927,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070846",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO016": {
             "codtransaccion": "327",
@@ -880,7 +942,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090709",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS016": {
             "codtransaccion": "327",
@@ -894,7 +957,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU017": {
             "codtransaccion": "327",
@@ -908,7 +972,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39183",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR017": {
             "codtransaccion": "327",
@@ -922,7 +987,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070211",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO017": {
             "codtransaccion": "327",
@@ -936,7 +1002,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091709",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS017": {
             "codtransaccion": "327",
@@ -950,7 +1017,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU018": {
             "codtransaccion": "327",
@@ -964,7 +1032,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55098",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR018": {
             "codtransaccion": "327",
@@ -978,7 +1047,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070733",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO018": {
             "codtransaccion": "327",
@@ -992,7 +1062,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090710",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS018": {
             "codtransaccion": "327",
@@ -1006,7 +1077,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU019": {
             "codtransaccion": "327",
@@ -1020,7 +1092,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55108",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR019": {
             "codtransaccion": "327",
@@ -1034,7 +1107,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070287",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO019": {
             "codtransaccion": "327",
@@ -1048,7 +1122,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091748",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS019": {
             "codtransaccion": "327",
@@ -1062,7 +1137,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU020": {
             "codtransaccion": "327",
@@ -1076,7 +1152,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39224",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR020": {
             "codtransaccion": "327",
@@ -1090,7 +1167,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070629",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO020": {
             "codtransaccion": "327",
@@ -1104,7 +1182,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090748",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS020": {
             "codtransaccion": "327",
@@ -1118,7 +1197,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU021": {
             "codtransaccion": "327",
@@ -1132,7 +1212,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39179",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR021": {
             "codtransaccion": "327",
@@ -1146,7 +1227,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070188",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO021": {
             "codtransaccion": "327",
@@ -1160,7 +1242,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090749",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS021": {
             "codtransaccion": "327",
@@ -1174,7 +1257,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU022": {
             "codtransaccion": "327",
@@ -1188,7 +1272,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55092",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR022": {
             "codtransaccion": "327",
@@ -1202,7 +1287,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070050",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO022": {
             "codtransaccion": "327",
@@ -1216,7 +1302,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090705",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS022": {
             "codtransaccion": "327",
@@ -1230,7 +1317,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU023": {
             "codtransaccion": "327",
@@ -1244,7 +1332,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39187",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR023": {
             "codtransaccion": "327",
@@ -1258,7 +1347,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070663",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO023": {
             "codtransaccion": "327",
@@ -1272,7 +1362,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090733",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS023": {
             "codtransaccion": "327",
@@ -1286,7 +1377,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU024": {
             "codtransaccion": "327",
@@ -1300,7 +1392,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39200",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR024": {
             "codtransaccion": "327",
@@ -1314,7 +1407,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070705",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO024": {
             "codtransaccion": "327",
@@ -1328,7 +1422,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091705",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS024": {
             "codtransaccion": "327",
@@ -1342,7 +1437,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU025": {
             "codtransaccion": "327",
@@ -1356,7 +1452,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55091",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR025": {
             "codtransaccion": "327",
@@ -1370,7 +1467,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070754",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO025": {
             "codtransaccion": "327",
@@ -1384,7 +1482,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091701",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS025": {
             "codtransaccion": "327",
@@ -1398,7 +1497,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU026": {
             "codtransaccion": "327",
@@ -1412,7 +1512,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39237",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR026": {
             "codtransaccion": "327",
@@ -1426,7 +1527,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070394",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO026": {
             "codtransaccion": "327",
@@ -1440,7 +1542,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091751",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS026": {
             "codtransaccion": "327",
@@ -1454,7 +1557,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU027": {
             "codtransaccion": "327",
@@ -1468,7 +1572,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55099",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR027": {
             "codtransaccion": "327",
@@ -1482,7 +1587,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070683",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO027": {
             "codtransaccion": "327",
@@ -1496,7 +1602,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090751",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS027": {
             "codtransaccion": "327",
@@ -1510,7 +1617,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU028": {
             "codtransaccion": "327",
@@ -1524,7 +1632,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39184",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR028": {
             "codtransaccion": "327",
@@ -1538,7 +1647,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070520",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO028": {
             "codtransaccion": "327",
@@ -1552,7 +1662,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091717",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS028": {
             "codtransaccion": "327",
@@ -1566,7 +1677,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU029": {
             "codtransaccion": "327",
@@ -1580,7 +1692,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39180",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR029": {
             "codtransaccion": "327",
@@ -1594,7 +1707,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070374",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO029": {
             "codtransaccion": "327",
@@ -1608,7 +1722,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090704",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS029": {
             "codtransaccion": "327",
@@ -1622,7 +1737,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU030": {
             "codtransaccion": "327",
@@ -1636,7 +1752,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39199",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR030": {
             "codtransaccion": "327",
@@ -1650,7 +1767,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070711",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO030": {
             "codtransaccion": "327",
@@ -1664,7 +1782,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091715",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS030": {
             "codtransaccion": "327",
@@ -1678,7 +1797,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU031": {
             "codtransaccion": "327",
@@ -1692,7 +1812,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55105",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR031": {
             "codtransaccion": "327",
@@ -1706,7 +1827,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070043",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO031": {
             "codtransaccion": "327",
@@ -1720,7 +1842,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "UD18J2C00169",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS031": {
             "codtransaccion": "327",
@@ -1734,7 +1857,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU032": {
             "codtransaccion": "327",
@@ -1748,7 +1872,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55097",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR032": {
             "codtransaccion": "327",
@@ -1762,7 +1887,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070151",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO032": {
             "codtransaccion": "327",
@@ -1776,7 +1902,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090716",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS032": {
             "codtransaccion": "327",
@@ -1790,7 +1917,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU033": {
             "codtransaccion": "327",
@@ -1804,7 +1932,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55104",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR033": {
             "codtransaccion": "327",
@@ -1818,7 +1947,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070127",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO033": {
             "codtransaccion": "327",
@@ -1832,7 +1962,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090715",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS033": {
             "codtransaccion": "327",
@@ -1846,7 +1977,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU034": {
             "codtransaccion": "327",
@@ -1860,7 +1992,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55084",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR034": {
             "codtransaccion": "327",
@@ -1874,7 +2007,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070029",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO034": {
             "codtransaccion": "327",
@@ -1888,7 +2022,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091714",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS034": {
             "codtransaccion": "327",
@@ -1902,7 +2037,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU035": {
             "codtransaccion": "327",
@@ -1916,7 +2052,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39194",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR035": {
             "codtransaccion": "327",
@@ -1930,7 +2067,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070135",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO035": {
             "codtransaccion": "327",
@@ -1944,7 +2082,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090714",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS035": {
             "codtransaccion": "327",
@@ -1958,7 +2097,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU036": {
             "codtransaccion": "327",
@@ -1972,7 +2112,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39175",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR036": {
             "codtransaccion": "327",
@@ -1986,7 +2127,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070257",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO036": {
             "codtransaccion": "327",
@@ -2000,7 +2142,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091739",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS036": {
             "codtransaccion": "327",
@@ -2014,7 +2157,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU037": {
             "codtransaccion": "327",
@@ -2028,7 +2172,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39206",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR037": {
             "codtransaccion": "327",
@@ -2042,7 +2187,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070609",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO037": {
             "codtransaccion": "327",
@@ -2056,7 +2202,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091743",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS037": {
             "codtransaccion": "327",
@@ -2070,7 +2217,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU038": {
             "codtransaccion": "327",
@@ -2084,7 +2232,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39212",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR038": {
             "codtransaccion": "327",
@@ -2098,7 +2247,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070778",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO038": {
             "codtransaccion": "327",
@@ -2112,7 +2262,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090742",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS038": {
             "codtransaccion": "327",
@@ -2126,7 +2277,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU039": {
             "codtransaccion": "327",
@@ -2140,7 +2292,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39217",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR039": {
             "codtransaccion": "327",
@@ -2154,7 +2307,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070069",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO039": {
             "codtransaccion": "327",
@@ -2168,7 +2322,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091742",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS039": {
             "codtransaccion": "327",
@@ -2182,7 +2337,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU040": {
             "codtransaccion": "327",
@@ -2196,7 +2352,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39203",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR040": {
             "codtransaccion": "327",
@@ -2210,7 +2367,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070349",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO040": {
             "codtransaccion": "327",
@@ -2224,7 +2382,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090743",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS040": {
             "codtransaccion": "327",
@@ -2238,7 +2397,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU041": {
             "codtransaccion": "327",
@@ -2252,7 +2412,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39201",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR041": {
             "codtransaccion": "327",
@@ -2266,7 +2427,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070004",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO041": {
             "codtransaccion": "327",
@@ -2280,7 +2442,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091710",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS041": {
             "codtransaccion": "327",
@@ -2294,7 +2457,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU042": {
             "codtransaccion": "327",
@@ -2308,7 +2472,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39207",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR042": {
             "codtransaccion": "327",
@@ -2322,7 +2487,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070727",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO042": {
             "codtransaccion": "327",
@@ -2336,7 +2502,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090728",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS042": {
             "codtransaccion": "327",
@@ -2350,7 +2517,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU043": {
             "codtransaccion": "327",
@@ -2364,7 +2532,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39170",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR043": {
             "codtransaccion": "327",
@@ -2378,7 +2547,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070063",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO043": {
             "codtransaccion": "327",
@@ -2392,7 +2562,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090729",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS043": {
             "codtransaccion": "327",
@@ -2406,7 +2577,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU044": {
             "codtransaccion": "327",
@@ -2420,7 +2592,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39193",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR044": {
             "codtransaccion": "327",
@@ -2434,7 +2607,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070203",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO044": {
             "codtransaccion": "327",
@@ -2448,7 +2622,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091734",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS044": {
             "codtransaccion": "327",
@@ -2462,7 +2637,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU045": {
             "codtransaccion": "327",
@@ -2476,7 +2652,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39213",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR045": {
             "codtransaccion": "327",
@@ -2490,7 +2667,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070517",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO045": {
             "codtransaccion": "327",
@@ -2504,7 +2682,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090735",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS045": {
             "codtransaccion": "327",
@@ -2518,7 +2697,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU046": {
             "codtransaccion": "327",
@@ -2532,7 +2712,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39197",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR046": {
             "codtransaccion": "327",
@@ -2546,7 +2727,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070007",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO046": {
             "codtransaccion": "327",
@@ -2560,7 +2742,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090734",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS046": {
             "codtransaccion": "327",
@@ -2574,7 +2757,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU047": {
             "codtransaccion": "327",
@@ -2588,7 +2772,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55078",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR047": {
             "codtransaccion": "327",
@@ -2602,7 +2787,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070008",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO047": {
             "codtransaccion": "327",
@@ -2616,7 +2802,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090750",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS047": {
             "codtransaccion": "327",
@@ -2630,7 +2817,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU048": {
             "codtransaccion": "327",
@@ -2644,7 +2832,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55085",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR048": {
             "codtransaccion": "327",
@@ -2658,7 +2847,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070117",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO048": {
             "codtransaccion": "327",
@@ -2672,7 +2862,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091713",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS048": {
             "codtransaccion": "327",
@@ -2686,7 +2877,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU049": {
             "codtransaccion": "327",
@@ -2700,7 +2892,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39233",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR049": {
             "codtransaccion": "327",
@@ -2714,7 +2907,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070277",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO049": {
             "codtransaccion": "327",
@@ -2728,7 +2922,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090713",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS049": {
             "codtransaccion": "327",
@@ -2742,7 +2937,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU050": {
             "codtransaccion": "327",
@@ -2756,7 +2952,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55082",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR050": {
             "codtransaccion": "327",
@@ -2770,7 +2967,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070406",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO050": {
             "codtransaccion": "327",
@@ -2784,7 +2982,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091712",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS050": {
             "codtransaccion": "327",
@@ -2798,7 +2997,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU051": {
             "codtransaccion": "327",
@@ -2812,7 +3012,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55101",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR051": {
             "codtransaccion": "327",
@@ -2826,7 +3027,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070557",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO051": {
             "codtransaccion": "327",
@@ -2840,7 +3042,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091711",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS051": {
             "codtransaccion": "327",
@@ -2854,7 +3057,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU052": {
             "codtransaccion": "327",
@@ -2868,7 +3072,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39192",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR052": {
             "codtransaccion": "327",
@@ -2882,7 +3087,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070853",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO052": {
             "codtransaccion": "327",
@@ -2896,7 +3102,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090712",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS052": {
             "codtransaccion": "327",
@@ -2910,7 +3117,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU053": {
             "codtransaccion": "327",
@@ -2924,7 +3132,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39181",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR053": {
             "codtransaccion": "327",
@@ -2938,7 +3147,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070893",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO053": {
             "codtransaccion": "327",
@@ -2952,7 +3162,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090711",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS053": {
             "codtransaccion": "327",
@@ -2966,7 +3177,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU054": {
             "codtransaccion": "327",
@@ -2980,7 +3192,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39195",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR054": {
             "codtransaccion": "327",
@@ -2994,7 +3207,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070898",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO054": {
             "codtransaccion": "327",
@@ -3008,7 +3222,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091741",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS054": {
             "codtransaccion": "327",
@@ -3022,7 +3237,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU055": {
             "codtransaccion": "327",
@@ -3036,7 +3252,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39232",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR055": {
             "codtransaccion": "327",
@@ -3050,7 +3267,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070400",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO055": {
             "codtransaccion": "327",
@@ -3064,7 +3282,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091740",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS055": {
             "codtransaccion": "327",
@@ -3078,7 +3297,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU056": {
             "codtransaccion": "327",
@@ -3092,7 +3312,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39231",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR056": {
             "codtransaccion": "327",
@@ -3106,7 +3327,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070761",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO056": {
             "codtransaccion": "327",
@@ -3120,7 +3342,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090739",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS056": {
             "codtransaccion": "327",
@@ -3134,7 +3357,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU057": {
             "codtransaccion": "327",
@@ -3148,7 +3372,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39171",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR057": {
             "codtransaccion": "327",
@@ -3162,7 +3387,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070534",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO057": {
             "codtransaccion": "327",
@@ -3176,7 +3402,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090741",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS057": {
             "codtransaccion": "327",
@@ -3190,7 +3417,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU058": {
             "codtransaccion": "327",
@@ -3204,7 +3432,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39220",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR058": {
             "codtransaccion": "327",
@@ -3218,7 +3447,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070017",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO058": {
             "codtransaccion": "327",
@@ -3232,7 +3462,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091750",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS058": {
             "codtransaccion": "327",
@@ -3246,7 +3477,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU059": {
             "codtransaccion": "327",
@@ -3260,7 +3492,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55100",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR059": {
             "codtransaccion": "327",
@@ -3274,7 +3507,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070281",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO059": {
             "codtransaccion": "327",
@@ -3288,7 +3522,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091749",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS059": {
             "codtransaccion": "327",
@@ -3302,7 +3537,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU060": {
             "codtransaccion": "327",
@@ -3316,7 +3552,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39236",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR060": {
             "codtransaccion": "327",
@@ -3330,7 +3567,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070205",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO060": {
             "codtransaccion": "327",
@@ -3344,7 +3582,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090740",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS060": {
             "codtransaccion": "327",
@@ -3358,7 +3597,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU061": {
             "codtransaccion": "327",
@@ -3372,7 +3612,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39216",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR061": {
             "codtransaccion": "327",
@@ -3386,7 +3627,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070041",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO061": {
             "codtransaccion": "327",
@@ -3400,7 +3642,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091728",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS061": {
             "codtransaccion": "327",
@@ -3414,7 +3657,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU062": {
             "codtransaccion": "327",
@@ -3428,7 +3672,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39176",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR062": {
             "codtransaccion": "327",
@@ -3442,7 +3687,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070712",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO062": {
             "codtransaccion": "327",
@@ -3456,7 +3702,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090727",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS062": {
             "codtransaccion": "327",
@@ -3470,7 +3717,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU063": {
             "codtransaccion": "327",
@@ -3484,7 +3732,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55077",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR063": {
             "codtransaccion": "327",
@@ -3498,7 +3747,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070129",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO063": {
             "codtransaccion": "327",
@@ -3512,7 +3762,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091727",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS063": {
             "codtransaccion": "327",
@@ -3526,7 +3777,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU064": {
             "codtransaccion": "327",
@@ -3540,7 +3792,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39211",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR064": {
             "codtransaccion": "327",
@@ -3554,7 +3807,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070140",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO064": {
             "codtransaccion": "327",
@@ -3568,7 +3822,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091726",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS064": {
             "codtransaccion": "327",
@@ -3582,7 +3837,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU065": {
             "codtransaccion": "327",
@@ -3596,7 +3852,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39219",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR065": {
             "codtransaccion": "327",
@@ -3610,7 +3867,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070316",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO065": {
             "codtransaccion": "327",
@@ -3624,7 +3882,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090725",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS065": {
             "codtransaccion": "327",
@@ -3638,7 +3897,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU066": {
             "codtransaccion": "327",
@@ -3652,7 +3912,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "102SN55093",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR066": {
             "codtransaccion": "327",
@@ -3666,7 +3927,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070153",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO066": {
             "codtransaccion": "327",
@@ -3680,7 +3942,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090726",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS066": {
             "codtransaccion": "327",
@@ -3694,7 +3957,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU067": {
             "codtransaccion": "327",
@@ -3708,7 +3972,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39210",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR067": {
             "codtransaccion": "327",
@@ -3722,7 +3987,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070744",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO067": {
             "codtransaccion": "327",
@@ -3736,7 +4002,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091752",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS067": {
             "codtransaccion": "327",
@@ -3750,7 +4017,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU068": {
             "codtransaccion": "327",
@@ -3764,7 +4032,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39168",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR068": {
             "codtransaccion": "327",
@@ -3778,7 +4047,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070830",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO068": {
             "codtransaccion": "327",
@@ -3792,7 +4062,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130090753",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS068": {
             "codtransaccion": "327",
@@ -3806,7 +4077,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "CPU069": {
             "codtransaccion": "327",
@@ -3820,7 +4092,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "400SN39191",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "TOR069": {
             "codtransaccion": "327",
@@ -3834,7 +4107,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "COM2024CM21070407",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "ADO069": {
             "codtransaccion": "327",
@@ -3848,7 +4122,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "KBM130091753",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         },
         "AUS069": {
             "codtransaccion": "327",
@@ -3862,7 +4137,8 @@
             "Proovdeor": "Compumax Computer ",
             "Nroserial": "Sin serial ",
             "Empresa": "CampusLands",
-            "Estado": "no agregado"
+            "Estado": "no agregado",
+            "historial": {}
         }
     },
     "personas": {},
