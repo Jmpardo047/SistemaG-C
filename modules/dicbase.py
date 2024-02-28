@@ -18,7 +18,8 @@ with open('data\libro.csv','r') as file:
             'Proovdeor' : item [8],
             'Nroserial' : item [9],
             'Empresa' : item[10],
-            'Estado' : item[11]
+            'Estado' : item[11],
+            'historial' : {}
         }
         database.update({item[2]:dicbase})
 campus = core.VerifyEx() # el diccionario que devuelve la verificacion de existencia del json se almacena en la variable campus
