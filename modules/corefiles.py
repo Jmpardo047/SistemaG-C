@@ -1,7 +1,4 @@
 import os
-<<<<<<< HEAD
-def validint()->int:
-=======
 import json
 import sys
 BASE_DIRECTORY = 'data/'
@@ -12,7 +9,6 @@ dictStruct = {
     'asignaciones':{}
 }
 def validInt()->int:
->>>>>>> 46514704f37b6c69ac5b998d3186645b719b2a2e
     try:
         num = int(input((')..')))
     except ValueError:
@@ -60,3 +56,7 @@ def CreateFile(*param):
 def ReadFile(file):
     with open(BASE_DIRECTORY+file,'r') as rf:
         return json.load(rf)
+
+def UpdateData(archivo,data):
+    with open(BASE_DIRECTORY+ archivo,'w') as fw:
+        json.dump(data,fw,indent=4)
