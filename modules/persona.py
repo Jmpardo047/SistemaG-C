@@ -2,6 +2,7 @@ import os
 import modules.menus as m
 import modules.corefiles as c
 def menpersonas(personas : dict):
+    os.system('cls')
     v = m.MenuControl()
     if (v == 1):
         Addpersona(personas)
@@ -15,6 +16,7 @@ def menpersonas(personas : dict):
         pass
 
 def Addpersona(personas : dict):
+    os.system('cls')
     listtipos = ['movil','casa','personal','oficina']
     print('Bienvenido al sistema de añadir personas')
     print('Escriba el tipo de persona que es (natural (N) o juridica (J))')
@@ -77,11 +79,11 @@ def Addpersona(personas : dict):
         print('Ingrese el numuero NIT del usuario')
         nit = c.validInt()
         print(f'Ingrese el nombre del usuario {nit}')
-        name = c.ValidStr
+        name = c.ValidStr()
         print(f'Ingrese el email de {name}')
-        email = c.validInt()
+        email = c.ValidStr()
         persona = {
-            'cc' : cc,
+            'nit' : nit,
             'name' :  name,
             'email': email,
             'telefono':{
@@ -109,7 +111,7 @@ def Addpersona(personas : dict):
                         isactive = True
                     elif(rete == 'N'):
                         isactive = False
-                        personas['personasj'].update({cc:persona})
+                        personas['personasj'].update({nit:persona})
                     else:
                         isactive = False
                         print('Opcion escrita no es correcta, no se agregó ninugn registro al sistema de personas')
