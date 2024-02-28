@@ -1,10 +1,14 @@
 import sys
 from tabulate import tabulate
 import os
+import modules.corefiles as core
+import modules.activos as act
+campus = core.VerifyEx()
+activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
     def Excecute(func):
         os.system('cls')
-        func()
+        func
         MainMenu()
 
     titulo = '''
@@ -17,7 +21,7 @@ def MainMenu():
     print(tabulate(menu, tablefmt='grid'))
     op = input('\n)..'  )
     if op == '1':
-       pass
+       Excecute(act.Activos(activos))
     elif op == '2':
         pass
     elif op == '3':
@@ -32,3 +36,16 @@ def MainMenu():
         sys.exit('Vuelva pronto!')
     else:
         MainMenu()
+
+def MenuControl():
+    lstOp = (1,2,3,4,5)
+    menu =[['1.', 'Agregar'], ['2.', 'Editar'], ['3.', 'Eliminar'], ['4.', 'Buscar'], ['5.', 'Regresar al menu principal']]
+    print(tabulate(menu, tablefmt='grid'))
+    try:
+        op = int(input('\n)..'  ))
+        if (op not in lstOp):
+            MenuControl()
+    except ValueError:
+        MenuControl()
+    else:
+        return op
