@@ -11,14 +11,14 @@ with open('data\libro.csv','r') as file:
             'nroformulario' : item[1],
             'codecampus' : item[2],
             'nombre' : item [3],
-            'Marca' : item [4],
-            'Categoria' : item [5],
-            'Tipo' : item [6],
-            'Valor' : item [7],
-            'Proovdeor' : item [8],
-            'Nroserial' : item [9],
-            'Empresa' : item[10],
-            'Estado' : item[11],
+            'marca' : item [4],
+            'categoria' : item [5],
+            'tipo' : item [6],
+            'valor' : item [7],
+            'proveedor' : item [8],
+            'nroserial' : item [9],
+            'empresa' : item[10],
+            'estado' : item[11],
             'historial' : {}
         }
         database.update({item[2]:dicbase})
