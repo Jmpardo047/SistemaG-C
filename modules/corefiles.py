@@ -1,3 +1,4 @@
+import os
 def validint()->int:
     try:
         num = int(input((':)_ ')))
