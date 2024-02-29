@@ -66,7 +66,6 @@ def Addpersona(personas : dict):
         personas['personasn'].update({cc:nwPersona})
         os.system('pause')
         return
-
     elif (tipo == 'J'):
         print('Ingrese el numuero NIT del usuario')
         nit = c.validInt()

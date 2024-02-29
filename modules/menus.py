@@ -25,7 +25,7 @@ def MainMenu():
     if op == '1':
        Excecute(act.Activos(activos))
     elif op == '2':
-        Excecute(per.menpersonas(personas))
+        Excecute(per.Personas(personas))
     elif op == '3':
         pass
     elif op == '4':
