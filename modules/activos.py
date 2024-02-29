@@ -126,7 +126,6 @@ def SrchActivo(activos:dict):
     os.system('cls')
     print('ingrese el código campus del activo que desea buscar')
     cCampus = ValidataCode(activos)
-    lstoute = []
     if (bool(cCampus) == True):
         route = activos.get(cCampus)
         jsonNew = json.dumps(route, indent=4)

@@ -5,6 +5,7 @@ import modules.corefiles as core
 import modules.activos as act
 import modules.persona as per
 import modules.persona as prs
+import modules.zonas as zn
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
@@ -27,7 +28,7 @@ def MainMenu():
     elif op == '2':
         Excecute(per.Personas(personas))
     elif op == '3':
-        pass
+        Excecute(zn.Zonas(zonas))
     elif op == '4':
         pass
     elif op == '5':
