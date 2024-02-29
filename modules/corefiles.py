@@ -66,3 +66,27 @@ def ReadFile(file):
 def UpdateFile(archivo,data):
     with open(BASE_DIRECTORY+ archivo,'w') as fw:
         json.dump(data,fw,indent=4)
+
+def ValidataCode(activos:dict):
+    cod = input(')..')
+    if (cod not in activos.keys()):
+        print('Código ingresado no coincide con ningún activo')
+        rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+        if (rp == True):
+            return(ValidataCode(activos))
+        else:
+            pass
+    else:
+        return cod
+
+def ValidZone(zonas:dict):
+    cod = input(')..')
+    if (cod not in zonas.keys()):
+        print('Nùmero ingresado no coincide con ninguna zona')
+        rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+        if (rp == True):
+            return(ValidZone(zonas))
+        else:
+            pass
+    else:
+        return cod

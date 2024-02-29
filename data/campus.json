@@ -4202,11 +4202,27 @@
         }
     },
     "zonas": {
-        "123": {
-            "numero": "123",
+        "433": {
+            "numero": "433",
             "nombre": "a",
             "capacidad": 33
+        },
+        "221": {
+            "numero": "221",
+            "nombre": "as",
+            "capacidad": 22
         }
     },
-    "asignaciones": {}
+    "asignaciones": {
+        "001": {
+            "nro asignacion": "001",
+            "fecha": "JULIO 2",
+            "tipo asignacion": "zona",
+            "asignadoA": "433",
+            "activos": [
+                "CPU001",
+                "CPU002"
+            ]
+        }
+    }
 }
