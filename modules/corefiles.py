@@ -8,6 +8,10 @@ dictStruct = {
         'personasn': {},
         'personasj': {}
     },
+    'personas':{
+         'personasn':{},
+         'personasj':{}
+    },
     'zonas': {},
     'asignaciones':{}
 }

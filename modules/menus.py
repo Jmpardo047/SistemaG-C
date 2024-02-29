@@ -4,6 +4,7 @@ import os
 import modules.corefiles as core
 import modules.activos as act
 import modules.persona as per
+import modules.persona as prs
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
