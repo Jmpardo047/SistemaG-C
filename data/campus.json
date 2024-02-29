@@ -4213,16 +4213,5 @@
             "capacidad": 22
         }
     },
-    "asignaciones": {
-        "001": {
-            "nro asignacion": "001",
-            "fecha": "JULIO 2",
-            "tipo asignacion": "zona",
-            "asignadoA": "433",
-            "activos": [
-                "CPU001",
-                "CPU002"
-            ]
-        }
-    }
+    "asignaciones": {}
 }
