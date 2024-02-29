@@ -7,7 +7,7 @@ def Personas(personas : dict):
     if (v == 1):
         Addpersona(personas)
     elif (v == 2):
-        pass
+        editpersonas(personas)
     elif (v == 3):
         pass
     elif (v == 4):  
@@ -116,3 +116,86 @@ def Addpersona(personas : dict):
         print('El tipo de persona seleccionado no es valido')
         os.system('pause')
         Addpersona(personas)
+
+def validatecode(personas : dict):
+    print('Ingrese el tipo de persona donde desea buscar su codigo')
+    listtipo = list(personas.keys())
+    print(listtipo)
+    tipoperso = c.ValidStr().lower()
+    if (tipoperso in listtipo):
+        print('Ingrese el codigo de la persona')
+        code = input(':)_')
+        if (code not in personas[tipoperso]):
+            print('Código ingresado no coincide con ningún activo')
+            rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+            if (rp == True):
+                return(validatecode(personas))
+            else:
+                pass
+        else:
+            return code
+    else:
+        print('Tipo de persona seleccionada no encontrada')
+        rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+        if (rp == True):
+            return(validatecode(personas))
+        else:
+                pass
+
+def editpersonas(personas : dict):
+    os.system('cls')
+    codigo = validatecode(personas)
+    print('Ingrese el tipo de persona donde desea hacer los cambios')
+    listtipo = list(personas.keys())
+    print(listtipo)
+    tipoperso = c.ValidStr().lower()
+    if (codigo in personas[tipoperso]):
+        print('Escoja el item que desea modificar')
+        listitem = list(personas[tipoperso][codigo])
+        print(listitem)
+        change = c.ValidStr().lower()
+        if (change not in listitem):
+            print('Valor ingresado no coincide con ninguna opcion')
+            rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+            if (rp == True):
+                return(editpersonas(personas))
+            else:
+                pass
+        else:
+            if (change == 'telefono'):
+                listtelefonos = list(personas[tipoperso][codigo]['telefono'])
+                print(listtelefonos)
+                cambio = c.ValidStr().lower()
+                if (cambio not in listtelefonos):
+                    print('Valor ingresado no coincide con ninguna opcion')
+                    rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+                    if (rp == True):
+                        return(editpersonas(personas))
+                    else:
+                        pass
+                else:
+                    newtel = c.validInt()
+                    personas[tipoperso][codigo][change][cambio] = newtel
+                    print(F'El valor {cambio} ha sido actualizado correctamente, desea hacer otro?')
+                    rp = bool(input('Desea hacer otro cambio? --- S(Si) o Enter(No)'))
+                    if (rp == True):
+                        return(editpersonas(personas))
+                    else:
+                        pass
+            else:
+                print(f'Seleccione el nuevo valor que le quiere dar a {change}')
+                newvalue = input(':)_ ')
+                personas[tipoperso][codigo][change] = newvalue
+                print(F'El valor {change} ha sido actualizado correctamente, desea hacer otro?')
+                rp = bool(input('Desea hacer otro cambio? --- S(Si) o Enter(No)'))
+                if (rp == True):
+                    return(editpersonas(personas))
+                else:
+                    pass
+    else:
+        print('No se encuentra el tipo de persona seleccioando')
+        rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+        if (rp == True):
+            return(editpersonas(personas))
+        else:
+            pass
