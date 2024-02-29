@@ -3,6 +3,7 @@ from tabulate import tabulate
 import os
 import modules.corefiles as core
 import modules.activos as act
+import modules.persona as per
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
@@ -23,7 +24,7 @@ def MainMenu():
     if op == '1':
        Excecute(act.Activos(activos))
     elif op == '2':
-        pass
+        Excecute(per.menpersonas(personas))
     elif op == '3':
         pass
     elif op == '4':

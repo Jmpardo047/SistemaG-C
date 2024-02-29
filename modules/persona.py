@@ -121,7 +121,7 @@ def Addpersona(personas : dict):
                     print('No se pudo encontrar el tipo de telefono, vuelvalo a intentar')
                     isactive = True            
         elif (add == 'N'):
-            personas['personasj'].update({cc:persona})
+            personas['personasj'].update({nit:persona})
             print(f'La persona {name} ha sido agregada correctamente')
             os.system('pause')
             return

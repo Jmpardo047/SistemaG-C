@@ -4141,7 +4141,10 @@
             "historial": {}
         }
     },
-    "personas": {},
+    "personas": {
+        "personasn": {},
+        "personasj": {}
+    },
     "zonas": {},
     "asignaciones": {}
 }
