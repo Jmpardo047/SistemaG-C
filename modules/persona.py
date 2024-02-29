@@ -1,7 +1,7 @@
 import os
 import modules.menus as m
 import modules.corefiles as c
-def menpersonas(personas : dict):
+def Personas(personas : dict):
     os.system('cls')
     v = m.MenuControl()
     if (v == 1):
@@ -10,15 +10,14 @@ def menpersonas(personas : dict):
         pass
     elif (v == 3):
         pass
-    elif (v == 4):
+    elif (v == 4):  
         pass
     elif (v == 5):
         pass
 
 def Addpersona(personas : dict):
     os.system('cls')
-    listtipos = ['movil','casa','personal','oficina']
-    print('Bienvenido al sistema de añadir personas')
+    listTipos = ['movil','casa','personal','oficina']
     print('Escriba el tipo de persona que es (natural (N) o juridica (J))')
     tipo = c.ValidStr().upper()
     if (tipo == 'N'):
@@ -28,7 +27,7 @@ def Addpersona(personas : dict):
         name = c.ValidStr()
         print(f'Ingrese el email de {name}')
         email = c.ValidStr()
-        persona = {
+        nwPersona = {
             'cc' : cc,
             'name' :  name,
             'email': email,
@@ -39,25 +38,23 @@ def Addpersona(personas : dict):
                 'oficina' : []
             }
         }
-        print(f'Desea agregar un telefono al registro de {name}? S(si) N(no)')
-        add = c.ValidStr().upper()
-        if (add == 'S'):
+        add = bool(input(f'Desea agregar un telefono al registro de {name}? S(Si) Enter(No)'))
+        if (add == True):
             isactive = True
             while isactive:
                 print('Que tipo telefono quiere agregar')
-                print(listtipos)
+                print(listTipos)
                 tipo = c.ValidStr().lower()
-                if (tipo in listtipos):
+                if (tipo in listTipos):
                     print('Escriba el numuero de telefono que desea agregar')
                     tel = c.validInt()
-                    persona['telefono'][tipo].append(tel)
-                    print('Desea agregar otro telefono? Si (S) No (N)')
-                    rete = c.ValidStr().upper()
-                    if (rete == 'S'):
+                    nwPersona['telefono'][tipo].append(tel)
+                    rt = bool(input('Desea agregar otro telefono? S(Si) Enter(No)'))
+                    if (rt == True):
                         isactive = True
-                    elif(rete == 'N'):
+                    elif(rt == False):
                         isactive = False
-                        personas['personasn'].update({cc:persona})
+                        personas['personasn'].update({cc:nwPersona})
                     else:
                         isactive = False
                         print('Opcion escrita no es correcta, no se agregó ningun registro al sistema de personas')
@@ -66,15 +63,11 @@ def Addpersona(personas : dict):
                 else:
                     print('No se pudo encontrar el tipo de telefono, vuelvalo a intentar')
                     isactive = True            
-        elif (add == 'N'):
-            personas['personasn'].update({cc:persona})
-            print(f'La persona {name} ha sido agregada correctamente')
+            personas['personasn'].update({cc:nwPersona})
             os.system('pause')
             return
         else:
-            print('opcion ingresada no valida')
-            os.system('pause')
-            Addpersona(personas)
+            pass
     elif (tipo == 'J'):
         print('Ingrese el numuero NIT del usuario')
         nit = c.validInt()
@@ -82,7 +75,7 @@ def Addpersona(personas : dict):
         name = c.ValidStr()
         print(f'Ingrese el email de {name}')
         email = c.ValidStr()
-        persona = {
+        nwPersona = {
             'nit' : nit,
             'name' :  name,
             'email': email,
@@ -93,25 +86,23 @@ def Addpersona(personas : dict):
                 'oficina' : []
             }
         }
-        print(f'Desea agregar un telefono al registro de {name}? S(si) N(no)')
-        add = c.ValidStr().upper()
-        if (add == 'S'):
+        add = bool(input(f'Desea agregar un telefono al registro de {name}? S(Si) Enter(No)'))
+        if (add == True):
             isactive = True
             while isactive:
                 print('Que tipo telefono quiere agregar')
-                print(listtipos)
+                print(listTipos)
                 tipo = c.ValidStr().lower()
-                if (tipo in listtipos):
+                if (tipo in listTipos):
                     print('Escriba el numuero de telefono que desea agregar')
                     tel = c.validInt()
-                    persona['telefono'][tipo].append(tel)
-                    print('Desea agregar otro telefono? Si (S) No (N)')
-                    rete = c.ValidStr().upper()
-                    if (rete == 'S'):
+                    nwPersona['telefono'][tipo].append(tel)
+                    rt = bool(input('Desea agregar otro telefono? S(Si) Enter(No)'))
+                    if (rt == True):
                         isactive = True
-                    elif(rete == 'N'):
+                    elif(rt == False):
                         isactive = False
-                        personas['personasj'].update({nit:persona})
+                        personas['personasj'].update({nit:nwPersona})
                     else:
                         isactive = False
                         print('Opcion escrita no es correcta, no se agregó ninugn registro al sistema de personas')
@@ -120,15 +111,11 @@ def Addpersona(personas : dict):
                 else:
                     print('No se pudo encontrar el tipo de telefono, vuelvalo a intentar')
                     isactive = True            
-        elif (add == 'N'):
-            personas['personasj'].update({cc:persona})
-            print(f'La persona {name} ha sido agregada correctamente')
+            personas['personasj'].update({nit:nwPersona})
             os.system('pause')
             return
         else:
-            print('opcion ingresada no valida')
-            os.system('pause')
-            Addpersona(personas)
+            pass
     else:
         print('El tipo de persona seleccionado no es valido')
         os.system('pause')
