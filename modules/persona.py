@@ -21,7 +21,7 @@ def Addpersona(personas : dict):
     print('Escriba el tipo de persona que es (natural (N) o juridica (J))')
     tipo = c.ValidStr().upper()
     if (tipo == 'N'):
-        print('Ingrese el numuero de cedula de la persona')
+        print('Ingrese el número de cedula de la persona')
         cc = c.validInt()
         print(f'Ingrese el nombre de {cc}')
         name = c.ValidStr()
@@ -63,11 +63,10 @@ def Addpersona(personas : dict):
                 else:
                     print('No se pudo encontrar el tipo de telefono, vuelvalo a intentar')
                     isactive = True            
-            personas['personasn'].update({cc:nwPersona})
-            os.system('pause')
-            return
-        else:
-            pass
+        personas['personasn'].update({cc:nwPersona})
+        os.system('pause')
+        return
+
     elif (tipo == 'J'):
         print('Ingrese el numuero NIT del usuario')
         nit = c.validInt()
@@ -94,7 +93,7 @@ def Addpersona(personas : dict):
                 print(listTipos)
                 tipo = c.ValidStr().lower()
                 if (tipo in listTipos):
-                    print('Escriba el numuero de telefono que desea agregar')
+                    print('Escriba el número de telefono que desea agregar')
                     tel = c.validInt()
                     nwPersona['telefono'][tipo].append(tel)
                     rt = bool(input('Desea agregar otro telefono? S(Si) Enter(No)'))
@@ -111,11 +110,9 @@ def Addpersona(personas : dict):
                 else:
                     print('No se pudo encontrar el tipo de telefono, vuelvalo a intentar')
                     isactive = True            
-            personas['personasj'].update({nit:nwPersona})
-            os.system('pause')
-            return
-        else:
-            pass
+        personas['personasj'].update({nit:nwPersona})
+        os.system('pause')
+        return
     else:
         print('El tipo de persona seleccionado no es valido')
         os.system('pause')

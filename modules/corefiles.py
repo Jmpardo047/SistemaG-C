@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import modules.dicbase as db
 BASE_DIRECTORY = 'data/'
 dictStruct = {
     'activos':{},
@@ -20,7 +21,7 @@ def validInt()->int:
         num = int(input((')..')))
     except ValueError:
         DelLine()
-        validInt()
+        return validInt()
     else:
         return num
 
@@ -29,7 +30,7 @@ def validFloat()->float:
         num = float(input(')..'))
     except ValueError:
         DelLine()
-        validFloat()
+        return validFloat()
     else:
         return num
 
@@ -39,7 +40,7 @@ def ValidStr():
             return txt
         else:
             DelLine()
-            ValidStr()
+            return ValidStr()
 
 def DelLine():
             sys.stdout.write("\033[F")
@@ -47,6 +48,7 @@ def DelLine():
 def VerifyEx():
     if (CheckFile('campus.json') == False):
         CreateFile('campus.json',dictStruct)
+        db.AddInit()
         return ReadFile('campus.json')
     else:
         return ReadFile('campus.json')
@@ -65,6 +67,6 @@ def ReadFile(file):
     with open(BASE_DIRECTORY+file,'r') as rf:
         return json.load(rf)
 
-def UpdateData(archivo,data):
+def UpdateFile(archivo,data):
     with open(BASE_DIRECTORY+ archivo,'w') as fw:
         json.dump(data,fw,indent=4)

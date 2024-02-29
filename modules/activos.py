@@ -1,7 +1,7 @@
 import os
 import modules.menus as m
 import modules.corefiles as c
-from tabulate import tabulate
+import json
 def Activos(activos:dict):
     os.system('cls')
     n = m.MenuControl()
@@ -12,9 +12,11 @@ def Activos(activos:dict):
         os.system('cls')
         EditActivo(activos)
     elif (n == 3):
-        pass
+        os.system('cls')
+        DltActivo(activos)
     elif (n == 4):
-        pass
+        os.system('cls')
+        SrchActivo(activos)
     elif (n == 5):
         pass
 
@@ -26,7 +28,7 @@ def AddActivo(activos:dict):
     print('Ingrese el número de formulario')
     nroForm = c.validInt()
     print('Ingrese el código campus')
-    codCampus = c.validInt()
+    codCampus = ValidCode(activos)
     print('Ingrese la marca del activo')
     brand = c.ValidStr()
     print('Ingrese la Categoria del activo')
@@ -57,6 +59,14 @@ def AddActivo(activos:dict):
         'historial': {}
     }
     activos.update({str(codCampus):nwAct})
+
+def ValidCode(activos:dict):
+    num = c.ValidStr()
+    if num in activos.keys():
+        print('codigo campus ya existe, intente con otro')
+        return ValidCode(activos)
+    else:
+        return num
 
 def ValidataCode(activos:dict):
     cod = input(')..')
@@ -98,6 +108,30 @@ def EditActivo(activos:dict):
                 nValue = input(f'Ingrese el valor nuevo para {op}: ')
                 activos[cCampus][op]=(nValue)
                 isAct = False
+    else:
+        pass
 
+def DltActivo(activos:dict):
+    os.system('cls')
+    print('ingrese el código campus del activo que desea eliminar')
+    cCampus = ValidataCode(activos)
+    if (bool(cCampus) == True):
+        activos.pop(cCampus)
+        print(f'Se ha eliminado el activo de código {cCampus}')
+        os.system('pause')
+    else:
+        pass
 
-        
+def SrchActivo(activos:dict):
+    os.system('cls')
+    print('ingrese el código campus del activo que desea buscar')
+    cCampus = ValidataCode(activos)
+    lstoute = []
+    if (bool(cCampus) == True):
+        route = activos.get(cCampus)
+        jsonNew = json.dumps(route, indent=4)
+        print(f'Esta es la información correspondiente al activo {cCampus}')
+        print(jsonNew)
+        os.system('pause')
+    else:
+        pass
