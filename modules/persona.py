@@ -231,7 +231,7 @@ def DelPerso (personas: dict):
     print('Ingrese los valores a eliminar ')
     codigo,tipoperso = ValidPpl(personas)
     personas[tipoperso].pop(codigo)
-    print('El dato ingresado fue eliminado conrrectamente')
+    print('El dato ingresado fue eliminado correctamente')
     os.system('pause')
 
 def SerchPerso (personas : dict):
