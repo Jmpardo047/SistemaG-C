@@ -4139,11 +4139,67 @@
             "empresa": "CampusLands",
             "estado": "no asignado",
             "historial": {}
+        },
+        "123": {
+            "codtransaccion": 123,
+            "nroformulario": 123,
+            "codecampus": 123,
+            "nombre": "NUEVO",
+            "marca": null,
+            "categoria": "pc",
+            "tipo": "a",
+            "valor": null,
+            "proovdeor": "a",
+            "nroserial": 123,
+            "empresa": "12",
+            "estado": "no asignado",
+            "historial": {}
+        },
+        "1": {
+            "codtransaccion": 1,
+            "nroformulario": 1,
+            "codecampus": "1",
+            "nombre": "psp",
+            "marca": "1",
+            "categoria": "1",
+            "tipo": "1",
+            "valor": 1.0,
+            "proovdeor": "1",
+            "nroserial": 1,
+            "empresa": "1",
+            "estado": "no asignado",
+            "historial": {}
         }
     },
     "personas": {
-        "personasn": {},
-        "personasj": {}
+        "personasn": {
+            "123213": {
+                "cc": 123213,
+                "name": "jose",
+                "email": "asda",
+                "telefono": {
+                    "movil": [
+                        1321
+                    ],
+                    "casa": [],
+                    "personal": [],
+                    "oficina": []
+                }
+            }
+        },
+        "personasj": {
+            "4234": {
+                "nit": 4234,
+                "name": "asd",
+                "email": "asd",
+                "telefono": {
+                    "movil": [],
+                    "casa": [],
+                    "personal": [],
+                    "oficina": []
+                }
+            }
+        }
     },
     "zonas": {},
     "asignaciones": {}

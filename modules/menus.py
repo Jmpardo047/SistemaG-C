@@ -34,6 +34,13 @@ def MainMenu():
     elif op == '6':
         pass
     elif op == '7':
+        finalUpt = {
+            'activos':activos,
+            'personas':personas,
+            'zonas': zonas,
+            'asignaciones':asignaciones
+        }
+        core.UpdateFile('campus.json',finalUpt)
         sys.exit('Vuelva pronto!')
     else:
         MainMenu()
