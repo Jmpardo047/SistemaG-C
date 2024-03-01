@@ -68,33 +68,28 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
         print('ingrese el número de la zona a la que desea asignarle un activo')
         nro = c.ValidZone(zonas)
         if (bool(nro) == True):
-            rp = True
-            while rp:
-                print('Ingrese el código campus del activo que desea asignar')
-                code = c.ValidataCode(activos)
-                if (bool(code) == True):
-                    if (code in lstAsign):
-                        print('Este código ya esta en la lista de asignaciones')
-                    elif (activos[code]['estado'] == 'en reparacion'):
-                        print('este activo no puede ser asignado ya que esta en reparación')
-                    elif (activos[code]['estado'] == 'dado de baja'):
-                        print('este activo no puede ser asignado ya que esta dado de baja por daños')
-                    elif (activos[code]['estado'] == 'asignado'):
-                        print('este activo ya ha sido asignado previamente')
-                    elif (activos[code]['estado'] == 'no asignado'):
-                        lstAsign.append(code)
-                else:
-                    print('Código no encontrado')
-                rp = bool(input('desea agregar otro activo? S(Si) o Enter(No)'))
-            nroAsg = str(len(asignaciones)+1).zfill(3)
-            nwAsign = {
-                'nro asignacion':nroAsg,
-                'fecha':date,
-                'tipo asignacion':tipo,
-                'asignadoA':nro,
-                'activos': lstAsign
-            }
-            asignaciones.update({nroAsg:nwAsign})
+            route = asignaciones.get(nro)
+            if (bool(route) == True):
+                lstAsign = AddAct(activos,lstAsign) 
+                actLst = list(route['activos'])
+                for item in lstAsign:
+                    if item in actLst:
+                        pass
+                    else:
+                        actLst.append(item)
+                route['activos'] = actLst
+            elif (bool(route) == False):
+                lstAsign = AddAct(activos,lstAsign)
+
+                nroAsg = str(len(asignaciones)+1).zfill(3)
+                nwAsign = {
+                    'nro asignacion':nroAsg,
+                    'fecha':date,
+                    'tipo asignacion':tipo,
+                    'asignadoA':nro,
+                    'activos': lstAsign
+                }
+                asignaciones.update({nro:nwAsign})
         else:
             pass
     else:
@@ -117,3 +112,26 @@ def ScrhAsign(asignaciones:dict):
             ScrhAsign(asignaciones)
         else:
             pass
+
+def AddAct(activos:dict,lstAsign:list):
+    rp = True
+    while rp:
+        print('Ingrese el código campus del activo que desea asignar')
+        code = c.ValidataCode(activos)
+        
+        if (bool(code) == True):
+            if (code in lstAsign):
+                print('Este código ya esta en la lista de asignaciones')
+            elif (activos[code]['estado'] == 'en reparacion'):
+                print('este activo no puede ser asignado ya que esta en reparación')
+            elif (activos[code]['estado'] == 'dado de baja'):
+                print('este activo no puede ser asignado ya que esta dado de baja por daños')
+            elif (activos[code]['estado'] == 'asignado'):
+                print('este activo ya ha sido asignado previamente')
+            elif (activos[code]['estado'] == 'no asignado'):
+                activos[code]['estado'] = 'asignado'
+                lstAsign.append(code)
+        else:
+            print('Código no encontrado')
+        rp = bool(input('desea agregar otro activo? S(Si) o Enter(No)'))
+    return lstAsign
