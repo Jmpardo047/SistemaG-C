@@ -5,14 +5,18 @@ import json
 def Asign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
     os.system('cls')
     n = m.MenuAsignacion()
-    if (n == 1):
+    if (n == 1): #crear una asignacion
         os.system('cls')
         CreateAsign(asignaciones,zonas,personas,activos)
-    elif (n == 2):
+    elif (n == 2): #buscar una asignacion
         os.system('cls')
         ScrhAsign(asignaciones)   
     elif (n == 3):
         pass
+
+def HistoriActivos (activos:dict): #funcion dinamica para poder cambiar el estado en cualquier momento
+    pass
+    #hacer un diccionario de forma dinamica para que cuando el usuario haga el cambio del activo
 
 def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
     os.system('cls')
@@ -54,6 +58,7 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
                 'asignadoA':codigo,
                 'activos': lstAsign
             }
+            m.campus['activos'][code]['historial'].update({nroAsg:nwAsign})
             asignaciones.update({nroAsg:nwAsign})
         else:
             pass

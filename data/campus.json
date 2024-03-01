@@ -4223,6 +4223,15 @@
                 "CPU001",
                 "CPU002"
             ]
+        },
+        "002": {
+            "nro asignacion": "002",
+            "fecha": "julio 14",
+            "tipo asignacion": "personal",
+            "asignadoA": "123213",
+            "activos": [
+                "1"
+            ]
         }
     }
 }
