@@ -80,7 +80,6 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
                 route['activos'] = actLst
             elif (bool(route) == False):
                 lstAsign = AddAct(activos,lstAsign)
-
                 nroAsg = str(len(asignaciones)+1).zfill(3)
                 nwAsign = {
                     'nro asignacion':nroAsg,
@@ -135,3 +134,4 @@ def AddAct(activos:dict,lstAsign:list):
             print('Código no encontrado')
         rp = bool(input('desea agregar otro activo? S(Si) o Enter(No)'))
     return lstAsign
+

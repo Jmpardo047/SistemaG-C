@@ -7,6 +7,7 @@ import modules.persona as per
 import modules.persona as prs
 import modules.zonas as zn
 import modules.asignaciones as asg
+import modules.reportes as rp
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
@@ -33,7 +34,7 @@ def MainMenu():
     elif op == '4':
         Excecute(asg.Asign(asignaciones,zonas,personas,activos))
     elif op == '5':
-        pass
+        Excecute(rp.reportes(campus))
     elif op == '6':
         pass
     elif op == '7':
@@ -64,6 +65,19 @@ def MenuControl():
 def MenuAsignacion():
     lstOp = (1,2,3)
     menu =[['1.', 'Crear asignación'], ['2.', 'Buscar asignación'], ['3.', 'Regresar al menú principal']]
+    print(tabulate(menu, tablefmt='grid'))
+    try:
+        op = int(input('\n)..'  ))
+        if (op not in lstOp):
+            MenuAsignacion()
+    except ValueError:
+        MenuAsignacion()
+    else:
+        return op
+    
+def MenuReportes():
+    lstOp = (1,2,3,4,5,6)
+    menu =[['1.', 'Lista de los activos registrados'], ['2.', 'Lista activos por categoria'], ['3.', 'Activos dados de baja'],['4.','Activos y sus asignaciones'],['5','Historial de movimientos del activo'],['6','Salir al menu principal']]
     print(tabulate(menu, tablefmt='grid'))
     try:
         op = int(input('\n)..'  ))
