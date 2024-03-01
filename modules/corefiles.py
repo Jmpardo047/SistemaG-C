@@ -90,3 +90,29 @@ def ValidZone(zonas:dict):
             pass
     else:
         return cod
+
+def ValidPpl(personas : dict):
+    os.system('cls')
+    print('Ingrese el tipo de persona donde desea buscar su codigo')
+    lstTipo = list(personas.keys())
+    print(lstTipo)
+    tipoPerso = ValidStr().lower()
+    if (tipoPerso in lstTipo):
+        print('Ingrese el codigo de la persona')
+        code = input(':)_')
+        if (code not in personas[tipoPerso]):
+            print('Código ingresado no coincide con ninguna persona')
+            rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+            if (rp == True):
+                return(ValidPpl(personas))
+            else:
+                pass
+        else:
+            return [code,tipoPerso]
+    else:
+        print('Tipo de persona seleccionada no encontrada')
+        rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
+        if (rp == True):
+            return(ValidPpl(personas))
+        else:
+                pass
