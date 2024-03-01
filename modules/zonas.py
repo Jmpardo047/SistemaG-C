@@ -45,7 +45,7 @@ def ValidNro(zonas:dict):
 
 def EditZona(zonas:dict):
     print('Ingrese el número de la zona que quiere editar') 
-    nro = ValidataCode(zonas)
+    nro = c.ValidZone(zonas)
     os.system('cls')
     if (bool(nro) == True):
         route = zonas.get(nro)
@@ -62,45 +62,40 @@ def EditZona(zonas:dict):
                     pass
                 else:
                     isAct = False
+            elif(op in lstRoute and op == 'numero'):
+                nValue = input(f'Ingrese el valor nuevo para {op}: ')
+                zonas.pop(nro)
+                zonas.update({nValue:route})
+                zonas[nValue][op]=(nValue)
+                isAct = False  
             elif(op in lstRoute):
                 nValue = input(f'Ingrese el valor nuevo para {op}: ')
                 zonas[nro][op]=(nValue)
-                isAct = False  
     else:
         pass
     
 
-def ValidataCode(zonas:dict):
-    cod = input(')..')
-    if (cod not in zonas.keys()):
-        print('Nùmero ingresado no coincide con ninguna zona')
-        rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
-        if (rp == True):
-            return(ValidataCode(zonas))
-        else:
-            pass
-    else:
-        return cod
+
     
 def DltZona(zonas:dict):
     os.system('cls')
-    print('ingrese el código campus del activo que desea eliminar')
-    nro = ValidataCode(zonas)
+    print('ingrese el número de la zona que desea eliminar')
+    nro = c.ValidZone(zonas)
     if (bool(nro) == True):
         zonas.pop(nro)
-        print(f'Se ha eliminado el activo de código {nro}')
+        print(f'Se ha eliminado la zona de código {nro}')
         os.system('pause')
     else:
         pass
 
 def SrchZona(zonas:dict):
     os.system('cls')
-    print('ingrese el código campus del activo que desea buscar')
-    nro = ValidataCode(zonas)
+    print('ingrese el número de la zona que desea buscar')
+    nro = c.ValidZone(zonas)
     if (bool(nro) == True):
         route = zonas.get(nro)
         jsonNew = json.dumps(route, indent=4)
-        print(f'Esta es la información correspondiente al activo {nro}')
+        print(f'Esta es la información correspondiente a la zona {nro}')
         print(jsonNew)
         os.system('pause')
     else:

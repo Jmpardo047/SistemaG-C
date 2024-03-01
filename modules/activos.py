@@ -68,24 +68,12 @@ def ValidCode(activos:dict):
     else:
         return num
 
-def ValidataCode(activos:dict):
-    cod = input(')..')
-    if (cod not in activos.keys()):
-        print('Código ingresado no coincide con ningún activo')
-        rp = bool(input('Desea volver a intentar? --- S(Si) o Enter(No)'))
-        if (rp == True):
-            return(ValidataCode(activos))
-        else:
-            pass
-    else:
-        return cod
-
 
 
 def EditActivo(activos:dict):
     os.system('cls')
     print('ingrese el código campus del activo que desea editar')
-    cCampus = ValidataCode(activos)
+    cCampus = c.ValidataCode(activos)
     if (bool(cCampus) == True):
         route = activos.get(cCampus)
         lstoute = list(route.keys())
@@ -114,7 +102,7 @@ def EditActivo(activos:dict):
 def DltActivo(activos:dict):
     os.system('cls')
     print('ingrese el código campus del activo que desea eliminar')
-    cCampus = ValidataCode(activos)
+    cCampus = c.ValidataCode(activos)
     if (bool(cCampus) == True):
         activos.pop(cCampus)
         print(f'Se ha eliminado el activo de código {cCampus}')
@@ -125,7 +113,7 @@ def DltActivo(activos:dict):
 def SrchActivo(activos:dict):
     os.system('cls')
     print('ingrese el código campus del activo que desea buscar')
-    cCampus = ValidataCode(activos)
+    cCampus = c.ValidataCode(activos)
     if (bool(cCampus) == True):
         route = activos.get(cCampus)
         jsonNew = json.dumps(route, indent=4)

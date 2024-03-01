@@ -6,6 +6,7 @@ import modules.activos as act
 import modules.persona as per
 import modules.persona as prs
 import modules.zonas as zn
+import modules.asignaciones as asg
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
@@ -30,7 +31,7 @@ def MainMenu():
     elif op == '3':
         Excecute(zn.Zonas(zonas))
     elif op == '4':
-        pass
+        Excecute(asg.Asign(asignaciones,zonas,personas,activos))
     elif op == '5':
         pass
     elif op == '6':
@@ -57,5 +58,18 @@ def MenuControl():
             MenuControl()
     except ValueError:
         MenuControl()
+    else:
+        return op
+
+def MenuAsignacion():
+    lstOp = (1,2,3)
+    menu =[['1.', 'Crear asignación'], ['2.', 'Buscar asignación'], ['3.', 'Regresar al menú principal']]
+    print(tabulate(menu, tablefmt='grid'))
+    try:
+        op = int(input('\n)..'  ))
+        if (op not in lstOp):
+            MenuAsignacion()
+    except ValueError:
+        MenuAsignacion()
     else:
         return op
