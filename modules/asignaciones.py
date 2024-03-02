@@ -14,10 +14,6 @@ def Asign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
     elif (n == 3):
         pass
 
-def HistoriActivos (activos:dict): #funcion dinamica para poder cambiar el estado en cualquier momento
-    pass
-    #hacer un diccionario de forma dinamica para que cuando el usuario haga el cambio del activo
-
 def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
     os.system('cls')
     lstAsign = []
