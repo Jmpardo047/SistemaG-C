@@ -8,6 +8,7 @@ import modules.persona as prs
 import modules.zonas as zn
 import modules.asignaciones as asg
 import modules.reportes as rp
+import modules.movimientos as mov
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
