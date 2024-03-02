@@ -20,8 +20,8 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
     print('Ingrese la fecha de la asignación')
     date = c.ValidStr()
     print('Ingrese el id de quién va a realizar la asignación')
-    tipo = c.ValidStr()
-    IsValid = verifyPerm(personas,tipo)
+    respons = c.ValidStr()
+    IsValid = verifyPerm(personas,respons)
     if (IsValid == True):
         print('seleccione el número del tipo de asignación que desea hacer')
         print('1. Personal\n2. Zona')
@@ -35,7 +35,7 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
                 rp = True
                 route = asignaciones.get(codigo)
                 if (bool(route) == True):
-                    lstAsign = AddAct(activos,lstAsign,date,tipo) 
+                    lstAsign = AddAct(activos,lstAsign,date,respons) 
                     actLst = list(route['activos'])
                     for item in lstAsign:
                         if item in actLst:
@@ -45,7 +45,7 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
                     route['activos'] = actLst
                     route['fecha'] = date
                 elif (bool(route) == False):
-                    lstAsign = AddAct(activos,lstAsign,date,tipo)
+                    lstAsign = AddAct(activos,lstAsign,date,respons)
                     nroAsg = str(len(asignaciones)+1).zfill(3)
                     nwAsign = {
                         'nro asignacion':nroAsg,
@@ -65,7 +65,7 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
             if (bool(nro) == True):
                 route = asignaciones.get(nro)
                 if (bool(route) == True):
-                    lstAsign = AddAct(activos,lstAsign,date,tipo) 
+                    lstAsign = AddAct(activos,lstAsign,date,respons) 
                     actLst = list(route['activos'])
                     for item in lstAsign:
                         if item in actLst:
@@ -75,7 +75,7 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
                     route['activos'] = actLst
                     route['fecha'] = date
                 elif (bool(route) == False):
-                    lstAsign = AddAct(activos,lstAsign,date,tipo)
+                    lstAsign = AddAct(activos,lstAsign,date,respons)
                     nroAsg = str(len(asignaciones)+1).zfill(3)
                     nwAsign = {
                         'nro asignacion':nroAsg,
@@ -110,7 +110,7 @@ def ScrhAsign(asignaciones:dict):
         else:
             pass
 
-def AddAct(activos:dict,lstAsign:list,date,tipo):
+def AddAct(activos:dict,lstAsign:list,date,respons):
     rp = True
     while rp:
         print('Ingrese el código campus del activo que desea asignar')
@@ -127,28 +127,28 @@ def AddAct(activos:dict,lstAsign:list,date,tipo):
                 print('este activo ya ha sido asignado previamente')
             elif (activos[code]['estado'] == 'no asignado'):
                 activos[code]['estado'] = 'asignado'
-                AddHist(activos,'asignado',code,date,tipo)
+                AddHist(activos,'asignado',code,date,respons)
                 lstAsign.append(code)
         else:
             print('Código no encontrado')
         rp = bool(input('desea agregar otro activo? S(Si) o Enter(No)'))
     return lstAsign
 
-def AddHist(activos:dict,mov,code,date,tipo):
+def AddHist(activos:dict,mov,code,date,respons):
     route = activos.get(code)['historial']
     idHist = str(len(route)+1).zfill(3)
     nwHist = {
         'NroID':idHist,
         'fecha': date,
         'tipoMov': mov,
-        'responsable': tipo
+        'responsable': respons
     }
     route.update({idHist:nwHist})
 
 
-def verifyPerm(personas:dict,tipo):
+def verifyPerm(personas:dict,respons):
     line = personas.get('personasn')
-    route = line.get(tipo)
+    route = line.get(respons)
     if (bool(route) == True):
         if (route['rol'] == 'admin'):
             return True
