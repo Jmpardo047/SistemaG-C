@@ -12,13 +12,25 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39173",
             "empresa": "CampusLands",
-            "estado": "asignado",
+            "estado": "en reparacion",
             "historial": {
                 "001": {
                     "NroID": "001",
                     "fecha": "julio2",
                     "tipoMov": "asignado",
                     "responsable": "zona"
+                },
+                "002": {
+                    "NroID": "002",
+                    "fecha": "a",
+                    "tipoMov": "asignado",
+                    "responsable": "123"
+                },
+                "003": {
+                    "NroID": "003",
+                    "fecha": "julio 5",
+                    "tipoMov": "en reparacion",
+                    "responsable": "123"
                 }
             }
         },
@@ -79,13 +91,19 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39208",
             "empresa": "CampusLands",
-            "estado": "asignado",
+            "estado": "no asignado",
             "historial": {
                 "001": {
                     "NroID": "001",
                     "fecha": "julio2",
                     "tipoMov": "asignado",
                     "responsable": "zona"
+                },
+                "002": {
+                    "NroID": "002",
+                    "fecha": "agosto 3",
+                    "tipoMov": "devolucion",
+                    "responsable": "123"
                 }
             }
         },
@@ -153,6 +171,18 @@
                     "fecha": "NOVIEMBRE 3",
                     "tipoMov": "asignado",
                     "responsable": "zona"
+                },
+                "002": {
+                    "NroID": "002",
+                    "fecha": "a",
+                    "tipoMov": "devolucion",
+                    "responsable": "123"
+                },
+                "003": {
+                    "NroID": "003",
+                    "fecha": "A",
+                    "tipoMov": "asignado",
+                    "responsable": "123"
                 }
             }
         },
@@ -273,8 +303,15 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39186",
             "empresa": "CampusLands",
-            "estado": "no asignado",
-            "historial": {}
+            "estado": "asignado",
+            "historial": {
+                "001": {
+                    "NroID": "001",
+                    "fecha": "a",
+                    "tipoMov": "asignado",
+                    "responsable": "123"
+                }
+            }
         },
         "TOR005": {
             "codtransaccion": "327",
@@ -4194,12 +4231,20 @@
     "asignaciones": {
         "433": {
             "nro asignacion": "001",
-            "fecha": "NOVIEMBRE 3",
+            "fecha": "a",
             "tipo asignacion": "zona",
             "asignadoA": "433",
             "activos": [
-                "CPU001",
-                "CPU002",
+                "CPU005",
+                "CPU001"
+            ]
+        },
+        "422": {
+            "nro asignacion": "002",
+            "fecha": "A",
+            "tipo asignacion": "zona",
+            "asignadoA": "422",
+            "activos": [
                 "CPU003"
             ]
         }

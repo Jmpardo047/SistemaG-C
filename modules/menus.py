@@ -6,6 +6,7 @@ import modules.activos as act
 import modules.persona as prs
 import modules.zonas as zn
 import modules.asignaciones as asg
+import modules.movimientos as mov
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
@@ -34,7 +35,7 @@ def MainMenu():
     elif op == '5':
         pass
     elif op == '6':
-        pass
+        Excecute(mov.Movimientos(activos,personas,asignaciones))
     elif op == '7':
         finalUpt = {
             'activos':activos,
@@ -70,5 +71,18 @@ def MenuAsignacion():
             MenuAsignacion()
     except ValueError:
         MenuAsignacion()
+    else:
+        return op
+
+def MenuMovs():
+    lstOp = (1,2,3,4,5)
+    menu =[['1.', 'Retorno de Activo'], ['2.', 'Dar de baja activo'], ['3.', 'Cambiar de asignación activo'], ['4.', 'Enviar a reparación o garantía activo'], ['5.', 'Regresar al menu principal']]
+    print(tabulate(menu, tablefmt='grid'))
+    try:
+        op = int(input('\n)..'  ))
+        if (op not in lstOp):
+            MenuMovs()
+    except ValueError:
+        MenuMovs()
     else:
         return op
