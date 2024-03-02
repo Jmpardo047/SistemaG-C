@@ -36,7 +36,7 @@ def MainMenu():
     elif op == '5':
         Excecute(rp.reportes(activos))
     elif op == '6':
-        pass
+        Excecute(mov.Movimientos(activos,personas,asignaciones))
     elif op == '7':
         finalUpt = {
             'activos':activos,

@@ -92,9 +92,7 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
         else:
             pass
     else:
-        print('digito inválido')
-        os.system('pause')
-        CreateAsign(asignaciones,zonas,personas,activos)
+        pass
 
 def ScrhAsign(asignaciones:dict):
     os.system('cls')
@@ -112,7 +110,7 @@ def ScrhAsign(asignaciones:dict):
         else:
             pass
 
-def AddAct(activos:dict,lstAsign:list):
+def AddAct(activos:dict,lstAsign:list,date,respons):
     rp = True
     while rp:
         print('Ingrese el código campus del activo que desea asignar')
@@ -129,6 +127,7 @@ def AddAct(activos:dict,lstAsign:list):
                 print('este activo ya ha sido asignado previamente')
             elif (activos[code]['estado'] == 'no asignado'):
                 activos[code]['estado'] = 'asignado'
+                AddHist(activos,'asignado',code,date,respons)
                 lstAsign.append(code)
         else:
             print('Código no encontrado')

@@ -22,11 +22,12 @@ def Addpersona(personas : dict):
     tipo = c.ValidStr().upper()
     if (tipo == 'N'):
         print('Ingrese el número de cedula de la persona')
-        cc = c.validInt()
+        cc = str(c.validInt())
         print(f'Ingrese el nombre de {cc}')
         name = c.ValidStr()
         print(f'Ingrese el email de {name}')
         email = c.ValidStr()
+        rol = Roles()
         nwPersona = {
             'cc' : cc,
             'name' :  name,
@@ -36,7 +37,8 @@ def Addpersona(personas : dict):
                 'casa' : [],
                 'personal' : [],
                 'oficina' : []
-            }
+            },
+            'rol': rol
         }
         add = bool(input(f'Desea agregar un telefono al registro de {name}? S(Si) Enter(No)'))
         if (add == True):
@@ -68,7 +70,7 @@ def Addpersona(personas : dict):
         return
     elif (tipo == 'J'):
         print('Ingrese el numuero NIT del usuario')
-        nit = c.validInt()
+        nit = str(c.validInt())
         print(f'Ingrese el nombre del usuario {nit}')
         name = c.ValidStr()
         print(f'Ingrese el email de {name}')
@@ -235,6 +237,32 @@ def DelPerso (personas: dict):
     os.system('pause')
 
 def SerchPerso (personas : dict):
+    os.system('cls')
+    rta = c.ValidPpl(personas)
+    if (bool(rta) == True):
+        codigo,tipoperso = rta
+        print('Ingrese la informacion de la persona que quiere buscar')
+        print(personas[tipoperso][codigo])
+        os.system('pause')
+    else:
+        pass
+
+def Roles():
+    os.system('cls')
+    print('Ingrese el rol que va a tener la persona')
+    print('1. Persona\n2. Admin')
+    n = input(')..')
+    if (n == '1'):
+        rol = 'persona'
+        return rol
+    elif (n == '2'):
+        rol = 'admin'
+        return rol
+    else:
+        print('opcion invalida, reintentar')
+        os.system('pause')
+        return Roles()
+    
     print('Ingrese la informacion de la persona que quiere buscar')
     codigo,tipoperso = ValidPpl(personas)
     print(personas[tipoperso][codigo])
