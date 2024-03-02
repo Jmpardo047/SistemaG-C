@@ -34,7 +34,7 @@ def MainMenu():
     elif op == '4':
         Excecute(asg.Asign(asignaciones,zonas,personas,activos))
     elif op == '5':
-        Excecute(rp.reportes(campus))
+        Excecute(rp.reportes(activos))
     elif op == '6':
         pass
     elif op == '7':
