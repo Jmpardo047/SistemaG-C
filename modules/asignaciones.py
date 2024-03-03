@@ -5,10 +5,10 @@ import json
 def Asign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
     os.system('cls')
     n = m.MenuAsignacion()
-    if (n == 1): #crear una asignacion
+    if (n == 1):
         os.system('cls')
         CreateAsign(asignaciones,zonas,personas,activos)
-    elif (n == 2): #buscar una asignacion
+    elif (n == 2):
         os.system('cls')
         ScrhAsign(asignaciones)   
     elif (n == 3):
@@ -19,74 +19,78 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
     lstAsign = []
     print('Ingrese la fecha de la asignación')
     date = c.ValidStr()
-    print('seleccione el número del tipo de asignación que desea hacer')
-    print('1. Personal\n2. Zona')
-    n = c.ValidStr()
-    if (n == '1'):
-        os.system('cls')
-        tipo = 'personal'
-        rta = c.ValidPpl(personas)
-        if (bool(rta) == True):
-            codigo,tipoperso = rta
-            rp = True
-            while rp:
-                print('Ingrese el código campus del activo que desea asignar')
-                code = c.ValidataCode(activos)
-                if (bool(code) == True):
-                    if (code in lstAsign):
-                        print('Este código ya esta en la lista de asignaciones')
-                    elif (activos[code]['estado'] == 'en reparacion'):
-                        print('este activo no puede ser asignado ya que esta en reparación')
-                    elif (activos[code]['estado'] == 'dado de baja'):
-                        print('este activo no puede ser asignado ya que esta dado de baja por daños')
-                    elif (activos[code]['estado'] == 'asignado'):
-                        print('este activo ya ha sido asignado previamente')
-                    elif (activos[code]['estado'] == 'no asignado'):
-                        lstAsign.append(code)
-                else:
-                    print('Código no encontrado')
-                rp = bool(input('desea agregar otro activo? S(Si) o Enter(No)'))
-            nroAsg = str(len(asignaciones)+1).zfill(3)
-            nwAsign = {
-                'nro asignacion':nroAsg,
-                'fecha':date,
-                'tipo asignacion':tipo,
-                'asignadoA':codigo,
-                'activos': lstAsign
-            }
-            m.campus['activos'][code]['historial'].update({nroAsg:nwAsign})
-            asignaciones.update({nroAsg:nwAsign})
+    print('Ingrese el id de quién va a realizar la asignación')
+    respons = c.ValidStr()
+    IsValid = verifyPerm(personas,respons)
+    if (IsValid == True):
+        print('seleccione el número del tipo de asignación que desea hacer')
+        print('1. Personal\n2. Zona')
+        n = c.ValidStr()
+        if (n == '1'):
+            os.system('cls')
+            tipo = 'personal'
+            rta = c.ValidPpl(personas)
+            if (bool(rta) == True):
+                codigo,tipoperso = rta
+                rp = True
+                route = asignaciones.get(codigo)
+                if (bool(route) == True):
+                    lstAsign = AddAct(activos,lstAsign,date,respons) 
+                    actLst = list(route['activos'])
+                    for item in lstAsign:
+                        if item in actLst:
+                            pass
+                        else:
+                            actLst.append(item)
+                    route['activos'] = actLst
+                    route['fecha'] = date
+                elif (bool(route) == False):
+                    lstAsign = AddAct(activos,lstAsign,date,respons)
+                    nroAsg = str(len(asignaciones)+1).zfill(3)
+                    nwAsign = {
+                        'nro asignacion':nroAsg,
+                        'fecha':date,
+                        'tipo asignacion':tipo,
+                        'asignadoA':codigo,
+                        'activos': lstAsign
+                    }
+                    asignaciones.update({codigo:nwAsign})
+            else:
+                pass
+        elif (n == '2'):
+            os.system('cls')
+            tipo = 'zona'
+            print('ingrese el número de la zona a la que desea asignarle un activo')
+            nro = c.ValidZone(zonas)
+            if (bool(nro) == True):
+                route = asignaciones.get(nro)
+                if (bool(route) == True):
+                    lstAsign = AddAct(activos,lstAsign,date,respons) 
+                    actLst = list(route['activos'])
+                    for item in lstAsign:
+                        if item in actLst:
+                            pass
+                        else:
+                            actLst.append(item)
+                    route['activos'] = actLst
+                    route['fecha'] = date
+                elif (bool(route) == False):
+                    lstAsign = AddAct(activos,lstAsign,date,respons)
+                    nroAsg = str(len(asignaciones)+1).zfill(3)
+                    nwAsign = {
+                        'nro asignacion':nroAsg,
+                        'fecha':date,
+                        'tipo asignacion':tipo,
+                        'asignadoA':nro,
+                        'activos': lstAsign
+                    }
+                    asignaciones.update({nro:nwAsign})
+            else:
+                pass
         else:
-            pass
-    elif (n == '2'):
-        os.system('cls')
-        tipo = 'zona'
-        print('ingrese el número de la zona a la que desea asignarle un activo')
-        nro = c.ValidZone(zonas)
-        if (bool(nro) == True):
-            route = asignaciones.get(nro)
-            if (bool(route) == True):
-                lstAsign = AddAct(activos,lstAsign) 
-                actLst = list(route['activos'])
-                for item in lstAsign:
-                    if item in actLst:
-                        pass
-                    else:
-                        actLst.append(item)
-                route['activos'] = actLst
-            elif (bool(route) == False):
-                lstAsign = AddAct(activos,lstAsign)
-                nroAsg = str(len(asignaciones)+1).zfill(3)
-                nwAsign = {
-                    'nro asignacion':nroAsg,
-                    'fecha':date,
-                    'tipo asignacion':tipo,
-                    'asignadoA':nro,
-                    'activos': lstAsign
-                }
-                asignaciones.update({nro:nwAsign})
-        else:
-            pass
+            print('digito inválido')
+            os.system('pause')
+            CreateAsign(asignaciones,zonas,personas,activos)
     else:
         pass
 
@@ -130,3 +134,29 @@ def AddAct(activos:dict,lstAsign:list,date,respons):
         rp = bool(input('desea agregar otro activo? S(Si) o Enter(No)'))
     return lstAsign
 
+def AddHist(activos:dict,mov,code,date,respons):
+    route = activos.get(code)['historial']
+    idHist = str(len(route)+1).zfill(3)
+    nwHist = {
+        'NroID':idHist,
+        'fecha': date,
+        'tipoMov': mov,
+        'responsable': respons
+    }
+    route.update({idHist:nwHist})
+
+
+def verifyPerm(personas:dict,respons):
+    line = personas.get('personasn')
+    route = line.get(respons)
+    if (bool(route) == True):
+        if (route['rol'] == 'admin'):
+            return True
+        elif (route['rol'] == 'persona'):
+            print('Este usuario no tiene permisos de administrador')
+            os.system('pause')
+            return False
+    else:
+        print('Usuario no encontrado')
+        os.system('pause')
+        return False

@@ -6,10 +6,6 @@ BASE_DIRECTORY = 'data/'
 dictStruct = {
     'activos':{},
     'personas':{
-        'personasn': {},
-        'personasj': {}
-    },
-    'personas':{
          'personasn':{},
          'personasj':{}
     },

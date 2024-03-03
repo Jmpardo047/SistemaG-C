@@ -3,12 +3,11 @@ from tabulate import tabulate
 import os
 import modules.corefiles as core
 import modules.activos as act
-import modules.persona as per
 import modules.persona as prs
 import modules.zonas as zn
 import modules.asignaciones as asg
-import modules.reportes as rp
 import modules.movimientos as mov
+import modules.reportes as repo
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
@@ -29,13 +28,13 @@ def MainMenu():
     if op == '1':
        Excecute(act.Activos(activos))
     elif op == '2':
-        Excecute(per.Personas(personas))
+        Excecute(prs.Personas(personas))
     elif op == '3':
         Excecute(zn.Zonas(zonas))
     elif op == '4':
         Excecute(asg.Asign(asignaciones,zonas,personas,activos))
     elif op == '5':
-        Excecute(rp.reportes(activos))
+        Excecute(repo.reportes(campus))
     elif op == '6':
         Excecute(mov.Movimientos(activos,personas,asignaciones))
     elif op == '7':
@@ -73,6 +72,19 @@ def MenuAsignacion():
             MenuAsignacion()
     except ValueError:
         MenuAsignacion()
+    else:
+        return op
+
+def MenuMovs():
+    lstOp = (1,2,3,4,5)
+    menu =[['1.', 'Retorno de Activo'], ['2.', 'Dar de baja activo'], ['3.', 'Cambiar de asignación activo'], ['4.', 'Enviar a reparación o garantía activo'], ['5.', 'Regresar al menu principal']]
+    print(tabulate(menu, tablefmt='grid'))
+    try:
+        op = int(input('\n)..'  ))
+        if (op not in lstOp):
+            MenuMovs()
+    except ValueError:
+        MenuMovs()
     else:
         return op
     
