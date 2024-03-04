@@ -36,7 +36,7 @@ def AddZona(zonas:dict):
     zonas.update({nroZona:nwZona})
 
 def ValidNro(zonas:dict):
-    num = c.ValidStr()
+    num = str(c.validInt())
     if num in zonas.keys():
         print('número de zona ya existe, intente con otro')
         return ValidNro(zonas)   
@@ -73,9 +73,6 @@ def EditZona(zonas:dict):
                 zonas[nro][op]=(nValue)
     else:
         pass
-    
-
-
     
 def DltZona(zonas:dict):
     os.system('cls')

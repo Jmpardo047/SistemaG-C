@@ -119,8 +119,6 @@ def Addpersona(personas : dict):
         os.system('pause')
         Addpersona(personas)
 
-
-
 def EditPersonas(personas : dict):
     os.system('cls')
     rta = c.ValidPpl(personas)

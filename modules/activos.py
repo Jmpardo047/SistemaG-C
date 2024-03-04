@@ -68,8 +68,6 @@ def ValidCode(activos:dict):
     else:
         return num
 
-
-
 def EditActivo(activos:dict):
     os.system('cls')
     print('ingrese el código campus del activo que desea editar')
