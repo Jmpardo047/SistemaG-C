@@ -13,11 +13,8 @@ def Movimientos(activos:dict,personas:dict,asignaciones:dict):
         BajaAct(activos,personas)     
     elif (n == 3):
         os.system('cls')
-        pass
-    elif (n == 4):
-        os.system('cls')
         RepairAct(activos,personas)  
-    elif (n == 5):
+    elif (n == 4):
         pass
 
 def ReturnAct(activos:dict,asignaciones:dict,personas:dict):

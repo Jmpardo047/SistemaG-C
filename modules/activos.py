@@ -104,9 +104,13 @@ def DltActivo(activos:dict):
     print('ingrese el código campus del activo que desea eliminar')
     cCampus = c.ValidataCode(activos)
     if (bool(cCampus) == True):
-        activos.pop(cCampus)
-        print(f'Se ha eliminado el activo de código {cCampus}')
-        os.system('pause')
+        if (activos[cCampus]['estado'] == 'asignado'):
+            print('Este activo no se puede eliminar ya que se ecuentra asignado')
+            os.system('pause')
+        else:
+            activos.pop(cCampus)
+            print(f'Se ha eliminado el activo de código {cCampus}')
+            os.system('pause')
     else:
         pass
 

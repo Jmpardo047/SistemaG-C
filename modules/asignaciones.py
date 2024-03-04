@@ -64,27 +64,77 @@ def CreateAsign(asignaciones:dict,zonas:dict,personas:dict,activos:dict):
             nro = c.ValidZone(zonas)
             if (bool(nro) == True):
                 route = asignaciones.get(nro)
-                if (bool(route) == True):
-                    lstAsign = AddAct(activos,lstAsign,date,respons) 
-                    actLst = list(route['activos'])
-                    for item in lstAsign:
-                        if item in actLst:
-                            pass
+                if (zonas[nro]['capacidad'] >= 0):
+                    if (bool(route) == True):
+                        lstAsign = AddAct(activos,lstAsign,date,respons) 
+                        actLst = list(route['activos'])
+                        cupo = len(lstAsign)
+                        aprove = zonas[nro]['capacidad'] - cupo                      
+                        if (aprove >= 0):
+                            for item in lstAsign:
+                                if item in actLst:
+                                    cupo -= 1
+                                    pass      
+                                else:
+                                    actLst.append(item)
+                            route['activos'] = actLst
+                            route['fecha'] = date
+                            zonas[nro]['capacidad'] -= cupo
                         else:
-                            actLst.append(item)
-                    route['activos'] = actLst
-                    route['fecha'] = date
-                elif (bool(route) == False):
-                    lstAsign = AddAct(activos,lstAsign,date,respons)
-                    nroAsg = str(len(asignaciones)+1).zfill(3)
-                    nwAsign = {
-                        'nro asignacion':nroAsg,
-                        'fecha':date,
-                        'tipo asignacion':tipo,
-                        'asignadoA':nro,
-                        'activos': lstAsign
-                    }
-                    asignaciones.update({nro:nwAsign})
+                            lstRemove = []
+                            reduce = 0
+                            for i,item in enumerate(lstAsign):
+                                if (item in actLst):
+                                    lstAsign.remove(item)
+                                elif(aprove < 0):
+                                    aprove += 1
+                                    lstRemove.append(item)
+                                else:
+                                    actLst.append(item)
+                                    reduce += 1
+                            zonas[nro]['capacidad'] -= reduce
+                            route['activos'] = lstAsign
+                            route['fecha'] = date
+                            print('La cantidad de activos añadidos excede el cupo de la zona, por ello no se agregaron los siguientes activos:')
+                            print(lstRemove)  
+                            os.system('pause')            
+                    elif (bool(route) == False):
+                        lstAsign = AddAct(activos,lstAsign,date,respons)
+                        cupo = 0
+                        cupo += len(lstAsign)
+                        aprove = zonas[nro]['capacidad'] - cupo
+                        if (aprove >= 0):
+                            zonas[nro]['capacidad'] -= cupo
+                            nroAsg = str(len(asignaciones)+1).zfill(3)
+                            nwAsign = {
+                                'nro asignacion':nroAsg,
+                                'fecha':date,
+                                'tipo asignacion':tipo,
+                                'asignadoA':nro,
+                                'activos': lstAsign
+                            }
+                            asignaciones.update({nro:nwAsign})
+                        else:
+                            for i,item in enumerate(lstAsign):
+                                if(aprove < 0):
+                                    aprove += 1
+                                    lstAsign.remove(item)
+                            zonas[nro]['capacidad'] -= len(lstAsign)
+                            nroAsg = str(len(asignaciones)+1).zfill(3)
+                            nwAsign = {
+                                'nro asignacion':nroAsg,
+                                'fecha':date,
+                                'tipo asignacion':tipo,
+                                'asignadoA':nro,
+                                'activos': lstAsign
+                            }
+                            asignaciones.update({nro:nwAsign})  
+                            print('ya que la cantidad de activos añadidos excedia la capacidad máxima solo se añadieron estos:')
+                            print(lstAsign)
+
+                else:
+                    print('Esta zona ya alcanzó capacidad máxima de activos')
+                    os.system('pause')
             else:
                 pass
         else:

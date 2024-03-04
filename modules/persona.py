@@ -1,7 +1,7 @@
 import os
 import modules.menus as m
 import modules.corefiles as c
-def Personas(personas : dict):
+def Personas(personas:dict,asignaciones:dict):
     os.system('cls')
     v = m.MenuControl()
     if (v == 1):
@@ -9,7 +9,7 @@ def Personas(personas : dict):
     elif (v == 2):
         EditPersonas(personas)
     elif (v == 3):
-        DelPerso(personas)
+        DelPerso(personas,asignaciones)
     elif (v == 4):  
         SerchPerso(personas)
     elif (v == 5):
@@ -209,15 +209,31 @@ def EditPersonas(personas : dict):
     else:
         pass
 
-def DelPerso (personas: dict):
+def DelPerso (personas:dict,asignaciones:dict):
     os.system('cls')
     rta = c.ValidPpl(personas)
     if (bool(rta) == True):
         codigo,tipoperso = rta
-        print('Ingrese los valores a eliminar ')
-        personas[tipoperso].pop(codigo)
-        print('El dato ingresado fue eliminado correctamente')
-        os.system('pause')
+        isAsign = True
+        for key,values in asignaciones.items():
+            if (codigo in values['asignadoA']):
+                if (len(values['activos'])>0):
+                    print('Esta persona no se puede eliminar ya que tiene activos asignados')
+                    os.system('pause')
+                    isAsign = True
+                    break
+                else:
+                    personas[tipoperso].pop(codigo)
+                    print('El dato ingresado fue eliminado correctamente')
+                    os.system('pause')
+                    isAsign = True
+                    break
+            else:
+                isAsign = False
+        if (isAsign == False):
+            personas[tipoperso].pop(codigo)
+            print('El dato ingresado fue eliminado correctamente')
+            os.system('pause')
     else:
         pass
 
