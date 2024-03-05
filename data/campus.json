@@ -12,27 +12,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39173",
             "empresa": "CampusLands",
-            "estado": "en reparacion",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "julio2",
-                    "tipoMov": "asignado",
-                    "responsable": "zona"
-                },
-                "002": {
-                    "NroID": "002",
-                    "fecha": "a",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                },
-                "003": {
-                    "NroID": "003",
-                    "fecha": "julio 5",
-                    "tipoMov": "en reparacion",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR001": {
             "codtransaccion": "327",
@@ -92,20 +73,7 @@
             "nroserial": "400SN39208",
             "empresa": "CampusLands",
             "estado": "no asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "julio2",
-                    "tipoMov": "asignado",
-                    "responsable": "zona"
-                },
-                "002": {
-                    "NroID": "002",
-                    "fecha": "agosto 3",
-                    "tipoMov": "devolucion",
-                    "responsable": "123"
-                }
-            }
+            "historial": {}
         },
         "TOR002": {
             "codtransaccion": "327",
@@ -164,27 +132,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39182",
             "empresa": "CampusLands",
-            "estado": "asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "NOVIEMBRE 3",
-                    "tipoMov": "asignado",
-                    "responsable": "zona"
-                },
-                "002": {
-                    "NroID": "002",
-                    "fecha": "a",
-                    "tipoMov": "devolucion",
-                    "responsable": "123"
-                },
-                "003": {
-                    "NroID": "003",
-                    "fecha": "A",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR003": {
             "codtransaccion": "327",
@@ -243,15 +192,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39190",
             "empresa": "CampusLands",
-            "estado": "asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "A",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR004": {
             "codtransaccion": "327",
@@ -310,15 +252,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39186",
             "empresa": "CampusLands",
-            "estado": "asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "a",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR005": {
             "codtransaccion": "327",
@@ -437,15 +372,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "102SN55107",
             "empresa": "CampusLands",
-            "estado": "asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "A",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR007": {
             "codtransaccion": "327",
@@ -564,15 +492,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39204",
             "empresa": "CampusLands",
-            "estado": "asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "a",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR009": {
             "codtransaccion": "327",
@@ -631,15 +552,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39214",
             "empresa": "CampusLands",
-            "estado": "asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "a",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR010": {
             "codtransaccion": "327",
@@ -1478,15 +1392,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39200",
             "empresa": "CampusLands",
-            "estado": "asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "a",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR024": {
             "codtransaccion": "327",
@@ -2745,15 +2652,8 @@
             "proveedor": "Compumax Computer ",
             "nroserial": "400SN39213",
             "empresa": "CampusLands",
-            "estado": "asignado",
-            "historial": {
-                "001": {
-                    "NroID": "001",
-                    "fecha": "a",
-                    "tipoMov": "asignado",
-                    "responsable": "123"
-                }
-            }
+            "estado": "no asignado",
+            "historial": {}
         },
         "TOR045": {
             "codtransaccion": "327",
@@ -4242,80 +4142,9 @@
         }
     },
     "personas": {
-        "personasn": {
-            "123": {
-                "cc": "123",
-                "name": "a",
-                "email": "a",
-                "telefono": {
-                    "movil": [],
-                    "casa": [],
-                    "personal": [],
-                    "oficina": []
-                },
-                "rol": "admin"
-            }
-        },
+        "personasn": {},
         "personasj": {}
     },
-    "zonas": {
-        "433": {
-            "numero": "433",
-            "nombre": "a",
-            "capacidad": 33
-        },
-        "422": {
-            "numero": "422",
-            "nombre": "A",
-            "capacidad": 123
-        },
-        "11": {
-            "numero": "11",
-            "nombre": "a",
-            "capacidad": 0
-        }
-    },
-    "asignaciones": {
-        "433": {
-            "nro asignacion": "001",
-            "fecha": "a",
-            "tipo asignacion": "zona",
-            "asignadoA": "433",
-            "activos": [
-                "CPU005",
-                "CPU001"
-            ]
-        },
-        "422": {
-            "nro asignacion": "002",
-            "fecha": "A",
-            "tipo asignacion": "zona",
-            "asignadoA": "422",
-            "activos": [
-                "CPU003"
-            ]
-        },
-        "11": {
-            "nro asignacion": "003",
-            "fecha": "A",
-            "tipo asignacion": "zona",
-            "asignadoA": "11",
-            "activos": [
-                "CPU009",
-                "CPU010",
-                "CPU004",
-                "CPU007"
-            ]
-        },
-        "123": {
-            "nro asignacion": "004",
-            "fecha": "a",
-            "tipo asignacion": "personal",
-            "asignadoA": "123",
-            "activos": [
-                "CPU045",
-                "CPU024"
-            ]
-        }
-    }
+    "zonas": {},
+    "asignaciones": {}
 }
