@@ -8,6 +8,7 @@ import modules.zonas as zn
 import modules.asignaciones as asg
 import modules.movimientos as mov
 import modules.reportes as reps
+import modules.export as ex
 campus = core.VerifyEx()
 activos,personas,zonas,asignaciones = campus.values()
 def MainMenu():
@@ -45,6 +46,7 @@ def MainMenu():
             'asignaciones':asignaciones
         }
         core.UpdateFile('campus.json',finalUpt)
+        ex.ExportFile()
         sys.exit('Vuelva pronto!')
     else:
         MainMenu()
@@ -91,6 +93,19 @@ def MenuMovs():
 def MenuReportes():
     lstOp = (1,2,3,4,5,6)
     menu =[['1.', 'Lista de los activos registrados'], ['2.', 'Lista activos por categoria'], ['3.', 'Activos dados de baja'],['4.','Activos y sus asignaciones'],['5','Historial de movimientos del activo'],['6','Salir al menu principal']]
+    print(tabulate(menu, tablefmt='grid'))
+    try:
+        op = int(input('\n)..'  ))
+        if (op not in lstOp):
+            MenuAsignacion()
+    except ValueError:
+        MenuAsignacion()
+    else:
+        return op
+
+def MenuRepair():
+    lstOp = (1,2,3)
+    menu =[['1.', 'Enviar a reparación'], ['2.', 'Devolver de reparación'], ['3','Salir al menu principal']]
     print(tabulate(menu, tablefmt='grid'))
     try:
         op = int(input('\n)..'  ))

@@ -13,7 +13,7 @@ def Movimientos(activos:dict,personas:dict,asignaciones:dict):
         BajaAct(activos,personas)     
     elif (n == 3):
         os.system('cls')
-        RepairAct(activos,personas)  
+        RepairAct(activos,personas,asignaciones)  
     elif (n == 4):
         pass
 
@@ -63,24 +63,62 @@ def BajaAct(activos:dict,personas:dict):
     else:
         pass
 
-def RepairAct(activos:dict,personas:dict):
+def RepairAct(activos:dict,personas:dict,asignaciones:dict):
     os.system('cls')
-    print('Ingrese la fecha en que el activo será mandado a reparación')
-    date = c.ValidStr()
-    print('Ingrese el id de quién va a realizar el movimiento')
-    respons = c.ValidStr()
-    IsValid = asg.verifyPerm(personas,respons)
-    if (IsValid == True):
-        print('Ingrese el código campus del activo que quiere enviar a reparación')
-        code = c.ValidataCode(activos)
-        if (bool(code) == True):
-            route = activos.get(code)
-            route['estado'] = 'en reparacion'
-            asg.AddHist(activos,'en reparacion',code,date,respons)
+    x = m.MenuRepair()
+    if (x == 1):
+        print('Ingrese la fecha en que el activo será mandado a reparación')
+        date = c.ValidStr()
+        print('Ingrese el id de quién va a realizar el movimiento')
+        respons = c.ValidStr()
+        IsValid = asg.verifyPerm(personas,respons)
+        if (IsValid == True):
+            print('Ingrese el código campus del activo que quiere enviar a reparación')
+            code = c.ValidataCode(activos)
+            if (bool(code) == True):
+                route = activos.get(code)
+                route['estado'] = 'en reparacion'
+                asg.AddHist(activos,'en reparacion',code,date,respons)
+            else:
+                pass
         else:
             pass
-    else:
+    elif (x == 2):
+        print('Ingrese la fecha en que el activo será mandado a reparación')
+        date = c.ValidStr()
+        print('Ingrese el id de quién va a realizar el movimiento')
+        respons = c.ValidStr()
+        IsValid = asg.verifyPerm(personas,respons)
+        if (IsValid == True):
+            print('Ingrese el código campus del activo que quiere enviar a reparación')
+            code = c.ValidataCode(activos)
+            if (bool(code) == True):
+                route = activos.get(code)
+                isAsigned = False
+                for keys,values in asignaciones.items():
+                    for item in values['activos']:
+                        if (code == item):
+                            route['estado'] = 'asignado'
+                            asg.AddHist(activos,'asignado',code,date,respons)
+                            isAsigned = True
+                        elif (isAsigned == True):
+                            break
+                        else:
+                            isAsigned = False
+                    if (isAsigned == True):
+                        break
+                        
+                if (isAsigned == False):
+                    route['estado'] = 'no asignado'
+                    asg.AddHist(activos,'no asignado',code,date,respons)
+            else:
+                pass
+        else:
+            pass
+
+    elif (x == 3):
         pass
+    
 
 def ChangeAsign(activos:dict,personas:dict,zonas:dict,asignaciones:dict):
     os.system('cls')

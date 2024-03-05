@@ -52,7 +52,7 @@ def AddActivo(activos:dict):
         'categoria': cat,
         'tipo': tipo,
         'valor': val,
-        'proovdeor': prov,
+        'proveedor': prov,
         'nroserial': nroSerial,
         'empresa': empresa,
         'estado': 'no asignado',
