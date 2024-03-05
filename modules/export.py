@@ -38,7 +38,7 @@ def ExportFile():
             dicbase['codigo'].append(Barcodes(values['codecampus']))
     
     df = pd.DataFrame(dicbase)
-    if (os.path.isfile('campus.xlsx')):
+    if (os.path.isfile('productos.xlsx')):
         df.to_excel('campus.xlsx', index=False)
     else:
         df.to_excel('campus.xlsx', index=False, sheet_name='Campus')
